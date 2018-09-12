@@ -21,7 +21,15 @@ Uma vantagem de escrever assim, o excel imediatamente reconhece que estamos escr
 
 ![Funcao](Funcao.gif)
 
-## 
+## Barra de Formulas
+
+Alem de escrever diretamente nas celulas, umas ferramente muito pratica e a barra de formulas. Nela, podemos escrever ou editar o conteudo das celulas.
+
+Para isso, basta selecionar a celula que queremos editar, clicando sobre ela e, entao, digitar os valores ou formulas que desejamos inserir diretamente na barra de formulas.
+
+Escrever sobre a celula ou na barra de formula sao equivalentes, tudo denpende da acao que estamos realizando.
+
+![formulaBar](formulaBar.gif)
 
 ## Algumas funcoes uteis
 
@@ -52,6 +60,20 @@ Queremos prcurar quantos alunos do sexo feminino estao presentes na coluna P da 
 
 Depois de inserir o esqueleto da CONT.SE na celula, vamos agora selecionar os argumentos.
 
+Primeiro vamos selecionar as celulas que nos interessam. Neste caso, as informacoes sobre o sexo dos estudantes estao na coluna P. Queremos selecionar a coluna P em sua totalidade. Para isso, vamos clicar na planilha "idadeserieneeracadez17" e clicar sobre o "P" que marca o nome da coluna.
+
+Automaticamente, a formula que estamos criando, que esta escrita na barra de formula ja foi preenchida com o argumento "idadeserieneeracadez17!P:P" que indica que vamos analisar a coluna P da planilha "idadeserieneeracadez17" em sua totalidade.
+
+Agora precisamos preencher o segundo argumento da funcao, que nesse caso e o que queremos contar. Para isso, clicamos na barra de formulas e adicionamos um ponto e virgula -  ;
+
+O ; indica que vamos agora inserir o proximo argumento. Neste caso, queremos contar o numero de meninas, para isso inserimos "F", a letra F entre aspas, assim o excel ira contar todas as ocorrencias da letra F na coluna P.
+
+
+![ArgsContSe](argsContse.gif)
+
+Agora, na nossa planilha "Analises", temos na celula escolhida um valor, 175986, que representa o numero de estudantes do sexo Feminino.
+
+Assim, conseguimos obter esse valor de forma muito pratica, mesmo o conjunto de dados contendo mais de 300 mil estudantes.
 
 
 
