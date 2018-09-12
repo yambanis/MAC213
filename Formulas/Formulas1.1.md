@@ -48,25 +48,34 @@ Agora nessa nova planilha, vamos usar a funcao CONT.SE para verificar a distribu
 
 * Selecionamos uma celula e digitamos o simbolo de =
 * Digitamos CONT.SE. Perceba que o excel comeca a mostrar opcoes conforme você digita, não sendo necessário digitar o comando inteiro.
-* Clique sobre o nome CONT.SE para inserir a formula na celula.
+* Clique duas vezes sobre o nome CONT.SE para inserir a formula na celula.
 
 ![InsertForm](insertForm.gif)
 
 Conforme aparece na tela, o comando CONT.SE leva dois argumentos:
 
-   =CONT.SE(Onde você quer procurar?; O que você quer procurar?)
+	=CONT.SE(intervalo; criterios)
+	=CONT.SE(Onde você quer procurar?; O que você quer procurar?)
  
 Queremos procurar quantos alunos do sexo feminino estão presentes na coluna P da planilha "idadeserieneeracadez17". Então vamos entrar esses dois argumentos na nossa formula.
 
-Depois de inserir o esqueleto da CONT.SE na celula, vamos agora selecionar os argumentos.
+Depois de inserir a CONT.SE na celula, vamos agora selecionar os argumentos.
 
-Primeiro vamos selecionar as celulas que nos interessam. Neste caso, as informacoes sobre o sexo dos estudantes estão na coluna P. Queremos selecionar a coluna P em sua totalidade. Para isso, vamos clicar na planilha "idadeserieneeracadez17" e clicar sobre o "P" que marca o nome da coluna.
+Primeiro vamos selecionar as celulas que nos interessam. Neste caso, as informacoes sobre o sexo dos estudantes estão na coluna P. Queremos selecionar a coluna P em sua totalidade. 
+
+* Vamos clicar na planilha "idadeserieneeracadez17" e clicar sobre o "P" que marca o nome da coluna.
 
 Automaticamente, a formula que estamos criando, que esta escrita na barra de formula já foi preenchida com o argumento "idadeserieneeracadez17!P:P" que indica que vamos analisar a coluna P da planilha "idadeserieneeracadez17" em sua totalidade.
 
-Agora precisamos preencher o segundo argumento da funcao, que nesse caso e o que queremos contar. Para isso, clicamos na barra de formulas e adicionamos um ponto e virgula - ;
+Agora precisamos preencher o segundo argumento da funcao, que nesse caso e o que queremos contar. 
 
-O ; indica que vamos agora inserir o próximo argumento. Neste caso, queremos contar o numero de meninas, para isso inserimos "F", a letra F entre aspas, assim o excel ira contar todas as ocorrências da letra F na coluna P.
+* Clicamos na barra de formulas e adicionamos um ponto e virgula - ;
+
+O ; indica que vamos agora inserir o próximo argumento. Neste caso, queremos contar o numero de meninas.
+
+* Inserimos "F", a letra F entre aspas, assim o excel ira contar todas as ocorrências da letra F na coluna P.
+
+* Colocamos entao um fecha parenteses - ) - no fim da formula e damos enter.
 
 
 ![ArgsContSe](argsContse.gif)
