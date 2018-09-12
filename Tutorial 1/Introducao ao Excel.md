@@ -67,7 +67,21 @@ Nao vamos entrar em mais detalhes por enquanto, o importante e que conseguimos e
 
 ## Abrindo o arquivo
 
-### Opcao 1 - importar
+### Opcao 1 - abrir em um novo arquivo
+
+Se voce ainda nao tem um arquivo de excel em que esta trabalhando, pode ser mais pratico apenas abrir o arquivo e deixar que o excel faca a importacao automaticamente.
+
+Simplesmente abra a pasta onde voce fez o download do arquivo e de um click duplo sobre ele.
+
+Se voce ja tiver o excel instalado em seu computador, ele ira avaliar automaticamente o arquivo .csv como uma planilha e fara todo o processo automaticamente.
+
+No final, voce tera uma tela parecida com esta:
+
+![importado](importado.png)
+
+
+
+### Opcao 2 - importar
 
 Se voce ja tem uma planilha em que esta trabalhnado e deseja importar esse novo conjunto de dados
 
