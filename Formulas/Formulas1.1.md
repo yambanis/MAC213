@@ -54,7 +54,7 @@ Agora nessa nova planilha, vamos usar a funcao CONT.SE para verificar a distribu
 
 Conforme aparece na tela, o comando CONT.SE leva dois argumentos:
 
- =CONT.SE(Onde você quer procurar?; O que você quer procurar?)
+   =CONT.SE(Onde você quer procurar?; O que você quer procurar?)
  
 Queremos procurar quantos alunos do sexo feminino estão presentes na coluna P da planilha "idadeserieneeracadez17". Então vamos entrar esses dois argumentos na nossa formula.
 
