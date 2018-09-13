@@ -1,51 +1,50 @@
-# GRAFICOS
+# GRÁFICOS
 
-Graficos sao ferramentas muito poderosas. Com eles somos capazes de visualizar mais facilmente mesmo conjuntos de dados mais complexos.
+Gráficos são ferramentas muito poderosas. Com eles somos capazes de visualizar mais facilmente mesmo conjuntos de dados mais complexos.
 
-Topicos a serem abordados:
+Tópicos a serem abordados:
 
-* Criando um grafico de pizza simples
+* Criando um gráfico de pizza simples
 
-* Customizando o grafico
+* Customizando o gráfico
 
-## Criando um grafico de pizza simples
+## Criando um gráfico de pizza simples
 
-Utilizando os dados que coletamos no tutorial anterior, numero total de meninos e meninas, vamos criar a partir deles um grafico de setores simples.
+Utilizando os dados que coletamos no tutorial anterior, número total de meninos e meninas, vamos criar a partir deles um gráfico de setores simples.
 
-Inserir graficos no excel pode ser bastante simples
+Inserir gráficos no excel pode ser bastante simples
 
-* Se voce ainda nao o fez, crie duas celulas com os nomes "TOTAL DE MENINAS" e "TOTAL DE MENINOS", ao lado dos valores correspondetes
+* Se você ainda não o fez, crie duas células com os nomes "TOTAL DE MENINAS" e "TOTAL DE MENINOS", ao lado dos valores correspondentes
 
-* Selecione as 4 celulas, clicando sobre uma delas e arrastando ate as outras
+* Selecione as 4 células, clicando sobre uma delas e arrastando até as outras
 
-* Na parte superior da tela, selecione a opcao "Inserir"
+* Na parte superior da tela, selecione a opção "Inserir"
 
-* Selecione "Inserir grafico de pizza ou rosca"
+* Selecione "Inserir gráfico de pizza ou rosca"
 
-O excel ira gerar automaticamente o grafico referente para voce
+O excel irá gerar automaticamente o gráfico referente para você
 
 ![pieChart](pieChart.gif)
 
 
-## Customizando o grafico
+## Customizando o gráfico
 
-Vamos ver agora como mudar a aparencia do nosso grafico
+Vamos ver agora como mudar a aparência do nosso gráfico
 
 Primeiro vamos mudar o titulo do grafico
 
-* Clique no grafico e em seguida clique duas vezes sobre o titulo do grafico para altera-lo
+* Clique no gráfico e em seguida clique duas vezes sobre o título do gráfico para alterá-lo
 
 ![titulo](titulo.gif)
 
-Podemos tambem alterar o visual geral do grafico
+Podemos também alterar o visual geral do gráfico
 
-* clique duas vezessobre o grafico e escolha uma das opcoes apresentadas
+* clique duas vezes sobre o gráfico e escolha uma das opções apresentadas
 
 ![estilo](estilo.gif)
 
-Finalmente, podemos escolher as cores que serao utilizadas em nossos setores
+Finalmente, podemos escolher as cores que serão utilizadas em nossos setores
 
-* Clique com o botao direito sobre um setor, selecione a opcao preenchimento e escolha a opcao desejada
+* Clique com o botão direito sobre um setor, selecione a opção preenchimento e escolha a opção desejada
 
 ![color](color.gif)
-

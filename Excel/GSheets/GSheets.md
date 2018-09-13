@@ -1,24 +1,24 @@
 # Alternativas ao Excel
 
-Topicos a serem abordados
+Tópicos a serem abordados
 
 * Google Sheets
 
 * Importando .csv
 
-* Usando funcoes no Google Sheets
+* Usando funções no Google Sheets
 
-* Criando uma tabela dinamica no Google Sheets
+* Criando uma tabela dinâmica no Google Sheets
 
-* Criando um grafico a partir dos dados
+* Criando um gráfico a partir dos dados
 
-* Funcao FREQUENCIA
+* Função FREQUÊNCIA
 
 ## Google Sheets
 
-O Google Sheets e uma ferramente muito poderosa e, o melhor de tudo, gratis!
+O Google Sheets e uma ferramenta muito poderosa e, o melhor de tudo, grátis!
 
-Ela pode ser acessada pelo navegador, editada por multiplos usuarios e os seus arquivos ficam salvos na nuvem e podem ser acessados por qualquer computador, atraves da sua conta do google.
+Ela pode ser acessada pelo navegador, editada por múltiplos usuários e os seus arquivos ficam salvos na nuvem e podem ser acessados por qualquer computador, através da sua conta do google.
 
 ### Acessando o Google Sheets
 
@@ -34,131 +34,125 @@ Ela pode ser acessada pelo navegador, editada por multiplos usuarios e os seus a
 
 * Arraste o arquivo osccredenciamentoabr18.csv da pasta de downloads para a janela do Google sheets
 
-* Aguarda a realizacao do upload
+* Aguarda a realização do upload
 
-* Selecione **Inserir novas paginas**
+* Selecione **Inserir novas páginas**
 
-* Selecione **Personalizado** e insira um ponto e virgula ; na caixa
+* Selecione **Personalizado** e insira um ponto e vírgula ; na caixa
 
 * Clique em **Importar dados**
 
-* Aguarde a finalizacao da importacao e clique em **"Abrir agora"**, caso sua planilha nao apareca automaticamente.
+* Aguarde a finalização da importação e clique em **"Abrir agora"**, caso sua planilha não aparece automaticamente.
 
 ![importando](import.gif)
 
-### Usando funcoes no Google Sheets
+### Usando funções no Google Sheets
 
-Agora que temos nossos dados importados no Google Sheets, podemos comecar a operar sobre eles.
+Agora que temos nossos dados importados no Google Sheets, podemos começar a operar sobre eles.
 
-Vamos analisar quais sao os bairros com organizacoes credenciadas e quantas elas sao.
+Vamos analisar quais são os bairros com organizações credenciadas e quantas elas são.
 
-#### Criando uma tabela dinamica no Google Sheets
+#### Criando uma tabela dinâmica no Google Sheets
 
-* Na aba superior, clique em Dados > Tabela Dinamica
+* Na aba superior, clique em Dados > Tabela Dinâmica
 
-* No Menu da direita, na secao "Linhas", clique em ADICIONAR e no menu, escolha Bairro
+* No Menu da direita, na seção "Linhas", clique em ADICIONAR e no menu, escolha Bairro
 
-* Na secao "Valores", clique em ADICIONAR e selecione Bairro
+* Na seção "Valores", clique em ADICIONAR e selecione Bairro
 
-* Na secao "FILTROS", clique em ADICIONAR, selecione "Status Credenciamento"
+* Na seção "FILTROS", clique em ADICIONAR, selecione "Status Credenciamento"
 
-* Clique em "Mostrando todos os itens" e descelecione "DESCREDENCIADA" e clique em OK
+* Clique em "Mostrando todos os itens" e desselecione "DESCREDENCIADA" e clique em OK
 
 ![PivotTables](Ptable.gif)
 
-* De volta na secao "Linhas", em Ordem, selecione Decrescente
+* De volta na seção "Linhas", em Ordem, selecione Decrescente
 
-* Em classifica por, selecione COUNTA de Bairro
+* Em classificar por, selecione COUNTA de Bairro
 
 * Feche o menu da direita, clicando no "X"
 
 ![ordena](ord.gif)
 
-O que obtivemos e uma nova tabela, em que os bairros aparecem em ordem alfabetica e, ao lado, temos quantas organizacoes credenciadas estao presentes em cada um deles.
+O que obtivemos e uma nova tabela, em que os bairros aparecem em ordem alfabética e, ao lado, temos quantas organizações credenciadas estão presentes em cada um deles.
 
-### Criando um grafico a partir dos dados
+### Criando um gráfico a partir dos dados
 
-Vamos criar um grafico, mostrando quais bairros tem, pelo menos, 10 organizacoes ou mais cadastradas.
+Vamos criar um gráfico, mostrando quais bairros tem, pelo menos, 10 organizações ou mais cadastradas.
 
-* Clique sobre a celula 1A e, sem soltar o clique, arraste ate a celula B11, contendo o 10 referente a ITAQUERA
+* Clique sobre a célula 1A e, sem soltar o clique, arraste até a célula B11, contendo o 10 referente a ITAQUERA
 
-* Clique em Inserir > Grafico
+* Clique em Inserir > Gráfico
 
-* Em "Tipo de grafico", selecione Grafico de colunas
+* Em "Tipo de gráfico", selecione Gráfico de colunas
 
 * Clique na caixa "Alternar linhas/colunas"
 
-* Assim, obtivemos um grafico com os bairros que tem mais de 10 organizacoes cadastradas e os suas quantidaes correspondentes
+* Assim, obtivemos um gráfico com os bairros que tem mais de 10 organizações cadastradas e os suas quantidades correspondentes
 
 ![tenPlus](tenPlus.gif)
 
 
-### Verificando distribuicao de organizacoes por bairros
+### Verificando distribuição de organizações por bairros
 
-E se quisessemos saber quantos bairros tem 1 instituicao cadastrada, quantos tem 2 e assim por diante?
+E se quiséssemos saber quantos bairros tem 1 instituição cadastrada, quantos tem 2 e assim por diante?
 
-Primeiro vamos calcular as frquencias:
+Primeiro vamos calcular as frequências:
 
-* Vamos criar uma coluna "Quantidade de organizacoes"
+* Vamos criar uma coluna "Quantidade de organizações"
 
-* Vamos preencher suas linhas com valores de 1 ate 6
+* Vamos preencher suas linhas com valores de 1 até 6
 
-* Na linha de numero 8 vamos escrever 7 ou mais
+* Na linha de número 8 vamos escrever 7 ou mais
 
 ![ranges](Range.gif)
 
 Repare que o texto "7 ou mais" ficou alinhado a esquerda, vamos arrumar isso:
 
-* Clique sobre a celula **C8**
+* Clique sobre a célula **C8**
 
-* Clique na opcao Formatar > Alinhar > Direita
+* Clique na opção Formatar > Alinhar > Direita
 
-Pronto, agora todos os valores estao alinhados!
+Pronto, agora todos os valores estão alinhados!
 
 ![alinhar](alinhar.gif)
 
-Agora vamos criar a coluna "Quantidade de bairros", na coluna D. Nessa coluna, vamos colocar quantos bairros tem exatamente a quantidade de organizacoes listadas na esquerda. Para isso, iremos usar a funcao **FREQUENCIA**.
+Agora vamos criar a coluna "Quantidade de bairros", na coluna D. Nessa coluna, vamos colocar quantos bairros tem exatamente a quantidade de organizações listadas na esquerda. Para isso, iremos usar a função **FREQUÊNCIA**.
 
-#### FREQUENCIA
+#### FREQUÊNCIA
 
-A funcao frequencia recebe dois argumentos, um vetor com dados e os intervalos que iremos separar esses dados.
+A função frequência recebe dois argumentos, um vetor com dados e os intervalos que iremos separar esses dados.
 
 
 	=FREQÜÊNCIA(matriz_dados; matriz_bin)
 	=FREQÜÊNCIA(dados; intervalos)
 
-Nos ja temos esses dois argumentos! A matriz_dados e nossa coluna B e os intervalos sao nossa coluna C, que criamos anteriormente!
+Nós já temos esses dois argumentos! A matriz_dados e nossa coluna B e os intervalos são nossa coluna C, que criamos anteriormente!
 
-* Clique sobre a celula D2 e digite =Frequency e selecione a funcao frequency
+* Clique sobre a célula D2 e digite =Frequency e selecione a função frequency
 
-* Selecione a coluna B em sua totalidade, clicando sobre o B. Esse e nosso vetor de dados
+* Selecione a coluna B em sua totalidade, clicando sobre o B. Esse é nosso vetor de dados
 
-* Digite um ponto e virgula, indicando fim do primeiro argumento
+* Digite um ponto e vírgula, indicando fim do primeiro argumento
 
-* Selecione agora os numeros de 1 a 6 na Coluna C. Esses sao os nossos intervalos.
+* Selecione agora os números de 1 a 6 na Coluna C. Esses são os nossos intervalos.
 
-* Nao selecionamos o 7 ou mais. Automaticamente, a funcao frequencia vai colocar os valores acima do nosso intervalo na celula seguinte.
+* Não selecionamos o 7 ou mais. Automaticamente, a função frequência vai colocar os valores acima do nosso intervalo na célula seguinte.
 
 ![frequencia](frequencia.gif)
 
-### Plotando um novo grafico
+### Plotando um novo gráfico
 
-Vamos agora criar um novo grafico, a partir das novas informacoes que coletamos.
+Vamos agora criar um novo gráfico, a partir das novas informações que coletamos.
 
-* Selecione as celulas de D2 ate D8 (D2:D8)
+* Selecione as células de D2 e D8 (D2:D8)
 
-* Clique em Inserir > Grafico
+* Clique em Inserir > Gráfico
 
-* Selecione "Grafico de "
+* Selecione "Gráfico de "
 
-* Clique em marcador e escolha as celulas C2 ate C8 (C2:C8)
+* Clique em marcador e escolha as células C2 e C8 (C2:C8)
 
-Pronto! Agora temos um grafico que mostra a distribuicao do numero de organizacoes cadastradas por bairro: Quantos bairros tem 1 organizacao cadastrada, quantos tem 2 e assim por diante.
+Pronto! Agora temos um gráfico que mostra a distribuição do número de organizações cadastradas por bairro: Quantos bairros tem 1 organização cadastrada, quantos tem 2 e assim por diante.
 
 ![pieC](pieC.gif)
-
-
-
-
-
-
