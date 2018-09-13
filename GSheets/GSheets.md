@@ -76,6 +76,8 @@ Vamos criar um grafico, mostrando quais bairros tem, pelo menos, 10 organizacoes
 
 * Assim, obtivemos um grafico com os bairros que tem mais de 10 organizacoes cadastradas e os suas quantidaes correspondentes
 
+![tenPlus](tenPlus.gif)
+
 
 ### Verificando distribuicao de organizacoes por bairros
 
