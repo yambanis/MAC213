@@ -2,6 +2,12 @@
 
 Graficos sao ferramentas muito poderosas. Com eles somos capazes de visualizar mais facilmente mesmo conjuntos de dados mais complexos.
 
+Topicos a serem abordados:
+
+* Criando um grafico de pizza simples
+
+* Customizando o grafico
+
 ## Criando um grafico de pizza simples
 
 Utilizando os dados que coletamos no tutorial anterior, numero total de meninos e meninas, vamos criar a partir deles um grafico de setores simples.
