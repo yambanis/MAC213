@@ -4,6 +4,18 @@ Agora que já temos nossos dados importados, vamos comecar a extrair informacoes
 
 Lembre-se que na [pagina](http://dados.prefeitura.sp.gov.br/dataset/perfil-dos-educandos-cor-raca-idade-sexo-necessidades-educacionais-especiais) que fizemos o download do CSV, temos o arquivo "Dicionario" que sera importante para "traduzirmos" as siglas presentes no nosso CSV.
 
+Topicos a serem abordados:
+
+* Introducao a funcoes
+
+* Funcao SOMA
+
+* Funcao CONT.SE
+
+* Funcao SE
+
+* Funcao SOMASE
+
 ## Introducao a funcoes
 
 As funcoes no excel são uma das maneiras mais simples de automatizarmos processos, o que e muito útil, desde quando estamos tratando pequenos conjuntos de valores ate tabelas bastante grandes.
