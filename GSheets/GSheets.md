@@ -30,7 +30,7 @@ Ela pode ser acessada pelo navegador, editada por multiplos usuarios e os seus a
 
 * Aguarde a finalizacao da importacao e clique em **"Abrir agora"**, caso sua planilha nao apareca automaticamente.
 
-[importando](import.gif)
+![importando](import.gif)
 
 ### Usando funcoes no Google Sheets
 
@@ -50,7 +50,7 @@ Vamos analisar quais sao os bairros com organizacoes credenciadas e quantas elas
 
 * Clique em "Mostrando todos os itens" e descelecione "DESCREDENCIADA" e clique em OK
 
-[PivotTables](Ptable.gif)
+![PivotTables](Ptable.gif)
 
 * De volta na secao "Linhas", em Ordem, selecione Decrescente
 
@@ -58,7 +58,7 @@ Vamos analisar quais sao os bairros com organizacoes credenciadas e quantas elas
 
 * Feche o menu da direita, clicando no "X"
 
-[ordena](ord.gif)
+![ordena](ord.gif)
 
 O que obtivemos e uma nova tabela, em que os bairros aparecem em ordem alfabetica e, ao lado, temos quantas organizacoes credenciadas estao presentes em cada um deles.
 
@@ -89,7 +89,7 @@ Primeiro vamos calcular as frquencias:
 
 * Na linha de numero 8 vamos escrever 7 ou mais
 
-[ranges](Range.gif)
+![ranges](Range.gif)
 
 Repare que o texto "7 ou mais" ficou alinhado a esquerda, vamos arrumar isso:
 
@@ -99,7 +99,7 @@ Repare que o texto "7 ou mais" ficou alinhado a esquerda, vamos arrumar isso:
 
 Pronto, agora todos os valores estao alinhados!
 
-[alinhar](alinhar.gif)
+![alinhar](alinhar.gif)
 
 Agora vamos criar a coluna "Quantidade de bairros", na coluna D. Nessa coluna, vamos colocar quantos bairros tem exatamente a quantidade de organizacoes listadas na esquerda. Para isso, iremos usar a funcao **FREQUENCIA**.
 
@@ -123,7 +123,7 @@ Nos ja temos esses dois argumentos! A matriz_dados e nossa coluna B e os interva
 
 * Nao selecionamos o 7 ou mais. Automaticamente, a funcao frequencia vai colocar os valores acima do nosso intervalo na celula seguinte.
 
-[frequencia](frequencia.gif)
+![frequencia](frequencia.gif)
 
 ### Plotando um novo grafico
 
@@ -139,7 +139,7 @@ Vamos agora criar um novo grafico, a partir das novas informacoes que coletamos.
 
 Pronto! Agora temos um grafico que mostra a distribuicao do numero de organizacoes cadastradas por bairro: Quantos bairros tem 1 organizacao cadastrada, quantos tem 2 e assim por diante.
 
-[pieC](pieC.gif)
+![pieC](pieC.gif)
 
 
 
