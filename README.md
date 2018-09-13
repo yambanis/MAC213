@@ -7,6 +7,17 @@ O projeto consiste no desenvolvimento de uma serie de tutorias para acesso aos b
 
 O principal insumo dos Tutoriais de Dados vão ser os dados divulgados no Portal de Dados Abertos da Prefeitura de São Paulo (http://dados.prefeitura.sp.gov.br/pt_PT/group/educacao). 
 
+## Tutoriais de Excel
+
+1. Introducao ao Excel
+2. Formulas no Excel
+3. Graficos
+4. Google Sheets
+
+
+## Tutorias de Python
+
+
 # Supervisora
 
 A supervisora do projeto sera Priscilla Corrêa, Assessora Técnica na Secretaria Municipal de Educação de São Paulo.
