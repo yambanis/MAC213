@@ -5,23 +5,7 @@ Topicos a serem cobertos
 * O que e uma planilha?
     Morfologia basica
     
-* Backstage Button
-
-* Barra de acesso rapido
-
 * Importando conjunto de dados
-
-* Name Box
-
-* Formula Bar
-
-* Formulas e funcoes - Soma, subtracoes e potenciacoes
-
-* Graficos simples
-
-* Salvamento e compartilhamento
-
-* Algumas alternativas ao Excel
 
 ## O que e uma planilha? 
 
@@ -33,7 +17,7 @@ Usaremos a versao 2016 do Excel neste tutorial mas tudo deve ser equivalente par
 
 Alguns dos elementos presentes na tela inicial do Excel sao:
 
-1. Cedulas
+1. Celulas
 2. Linhas - indicadas por numeros
 3. Colunas - inidcadas por letras
 4. Barra de formulas
@@ -116,13 +100,3 @@ Aparecerao 3 telas do assitente de importacao
 Depois de finalizado este processo, sua planilha deve parecer com algo similar a isto:
 
 ![importado](importado.png)
-
-
-
-
-
-
-
-
-
-
