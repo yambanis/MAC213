@@ -9,10 +9,14 @@ O principal insumo dos Tutoriais de Dados vão ser os dados divulgados no Portal
 
 ## Tutoriais de Excel
 
-1. Introducao ao Excel
-2. Formulas no Excel
-3. Graficos
-4. Google Sheets
+### Introducao ao Excel
+### Formulas no Excel
+### Graficos
+### Google Sheets
+### Libre Office(programado)
+### Tabelas Dinamicas(programado)
+### Solver(programado)
+
 
 
 ## Tutorias de Python
