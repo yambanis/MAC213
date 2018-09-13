@@ -31,11 +31,53 @@ Escrever sobre a celula ou na barra de formula são equivalentes, tudo depende d
 
 ![formulaBar](formulaBar.gif)
 
+## Formulas basicas
+
+Podemos fazer operacoes basicas no excel usando os operadores conhecidos da matematica: +, -, * e /.
+No excel nos referenciamos a celulas pela letra de sua coluna seguida pelo numero de sua linha.
+Assim, podemos selecionar uma celula para guardar o resultado da operacao entre outras celulas.
+
+1. Para somar, escolha uma celula para guardar o resultado e digite, =C1+C2, por exemplo, e pressione ENTER
+2. Para subtrair, escolha uma celula para guardar o resultado e digite, =C1-C2, por exemplo, e pressione ENTER
+3. Para multiplicar, escolha uma celula para guardar o resultado e digite, =C1*C2, por exemplo, e pressione ENTER
+4. Para divir, escolha uma celula para guardar o resultado e digite, =C1/C2, por exemplo, e pressione ENTER
+
+![formulaBasicas](formulasBsc.gif)
+
 ## Algumas funcoes uteis
 
-Vamos agora comecar algumas analises simples dos dados que importamos, utilizando algumas funcoes do excel
+### Funcao SOMA
+Esta e uma das funcoes mais basicas e uteis do excel.
+
+Vamos supor que queremos calcular o total de vendas de uma empresa. Para calcular o total de produtos vendidos,
+vamos usar a funcao soma.
+
+* Vamos clicar na celula que queremos guardar o valor da soma.
+* Vamos digitar =SOMA e clicar sobre a opcao SOMA.
+* Vamos entao clicar sobre a celula contendo o primeiro item a ser somado e, sem soltar, arrastar ate o ultimo item da lista a ser somado.
+* Finalmente vamos clicar ENTER e visualizar o valor total da soma
+
+![soma](soma.gif)
+
+### Combinando funcoes
+Vamos supor agora que nossos produtos tem valores distintos, vamos ver a renda total das vendas.
+Primeiramente, precisamos multiplicar a coluna com os precos unitarios pelas quantidades
+
+* Selecionamos a celula B2 e multiplicamos pela celula C2
+
+![mult](mult.gif)
+
+Precisamos fazer os mesmo para as celulas de baixo, mas nao precisamos reescrever a formula!
+Basta clicar no canto inferior da celula com a formula que desejamos copiar e arrastar para as celulas de destino. Dessa forma, o excel aplica a mesma formula de maneira automatica.
+
+Podemos fazer o mesmo para copias as formulas de soma que escrevemos anteriormente
+
+![copiaFunc](copiaFunc.gif)
+
 
 ### Funcao CONT.SE
+Vamos agora comecar algumas analises simples dos dados que importamos, utilizando algumas funcoes do excel
+
 A funcao CONT.SE e bastante útil e pode nos informar o numero de celulas que atendem a algum criterio. Vamos supor como exemplo que desejamos contar quantos alunos são do sexo masculino e quantos são do sexo feminino. Temos um numero enorme de dados, mas essa analise fica muito simples com a funcao CONT.SE
 
 Primeiramente, vamos criar uma nova planilha, para organizarmos nossas analises. Vamos clicar no botão +, localizado na parte inferior da nossa tela.
@@ -80,7 +122,71 @@ O ; indica que vamos agora inserir o próximo argumento. Neste caso, queremos co
 
 ![ArgsContSe](argsContse.gif)
 
-Agora, na nossa planilha "Analises", temos na celula escolhida um valor, 175986, que representa o numero de estudantes do sexo Feminino.
+Agora, na nossa planilha "Analises", temos na celula escolhida um valor, 175986, que representa o numero de entradas F na coluna P.
 
-Assim, conseguimos obter esse valor de forma muito pratica, mesmo o conjunto de dados contendo mais de 300 mil estudantes.
+Assim, conseguimos obter esse valor de forma muito pratica, mesmo o conjunto de dados contendo mais de 300 mil entradas.
+
+Para obter o numero de alunos do sexo masculino, a operacao e muito similar, basta trocarmos o segundo argumento da CONT.SE de "F" para "M":
+
+![masculinos](masc.gif)
+
+Agora temos o total de meninas e meninos. Para obter o total de estudante, basta somarmos, escrevendo em uma nova celula =A1+A2
+
+![total](tot.gif)
+
+Agora sabemos que o total de estudantes e 346861, sendo 175986 meninas e 170875 meninos. 
+
+Podemos utilizar o CONT.SE para extrair muitas outras informacoes, como total de alunos por periodo, ocorrencia de raca
+
+### FUNCAO SE
+
+A funcao SE permite que criemos uma condicao para que alguma tarefa seja realizada.
+
+Com o COUNT.SE fomos capazes de contar quantas vezes ocorreu um certo valor nos nossos dados, mas e se quisermos, alem de ver a ocorrencia de grupos femininos e masculinos, saber a quantidade total de alunos de cada sexo, multiplicando pela coluna QTD?
+
+Vamos usar a funcao **SE**
+
+* Escolha uma celula de destino e digite =SE e clique sobre a funcao duas vezes
+
+A funcao SE recebe tres argumentos:
+
+	=SE(Teste logico, valor verdadeiro, valor falso)	
+	=SE(Algo for Verdadeiro, faça tal coisa, caso contrário, faça outra coisa)
+
+Entao podemos escrever a funcao como:
+
+	=SE(CELULASEXO = "F", QTD, 0)
+
+Dessa forma, se a celula em questao for igual a F, recuperamos o valor QTD associado a. Se nao, nao contamos ela.
+
+![if](IF.gif)
+
+### FUNCAO SOMASE
+
+Mas a funcao SE ainda nao e suficiente para descobrirmos o valor total de alunos de cada sexo. Utilizando a funcao SOMASE, finalmente conseguiremos este resultado.
+
+A funcao SOMASE recebe tres argumentos:
+
+	=SOMASE(intervalo, criterios, intervalo_soma)
+
+O argumento intervalo e o intervalo a ser avaliado, segundo o criterio no segundo argumento.
+O argumento intervalo_soma e opcional: Se o proprio intervalo a ser somado e o mesmo sendo avaliado, deixamos esse argumento em branco. Se nao, colocamos o intervalo correspondente a ser somado.
+
+* Escolha uma celula e entre a funcao =SOMASE clicando duas vezes sobre seu nome
+
+* Escolha a coluna P em sua totalidade. Este e nosso intervalo a ser avaliado.
+
+* Na barra de formulas, entre '; "F"', este e o nosso criterio de soma
+
+* finalmente, adicione mais um ; e selecione a coluna T, para selecionar as quantidades. Esse e nosso intervalo de soma.
+
+* Adicione um fecha parentes ) e clique enter para visualizar o valor encontrado
+
+* Faremos o mesmo para obter o numero de meninos, apenas trocando o "F" por "M"
+
+![SomaSe](somase.gif)
+
+
+
+
 
