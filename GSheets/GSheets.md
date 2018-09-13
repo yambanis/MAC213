@@ -1,5 +1,19 @@
 # Alternativas ao Excel
 
+Topicos a serem abordados
+
+* Google Sheets
+
+* Importando .csv
+
+* Usando funcoes no Google Sheets
+
+* Criando uma tabela dinamica no Google Sheets
+
+* Criando um grafico a partir dos dados
+
+* Funcao FREQUENCIA
+
 ## Google Sheets
 
 O Google Sheets e uma ferramente muito poderosa e, o melhor de tudo, gratis!
@@ -12,7 +26,7 @@ Ela pode ser acessada pelo navegador, editada por multiplos usuarios e os seus a
 
 * Crie uma nova planilha em branco
 
-### Importando nosso .csv
+### Importando .csv
 
 * Faca o download do arquivo ["Instituições Credenciadas - Abr/2018"](http://dados.prefeitura.sp.gov.br/dataset/organizacoes-credenciadas-para-atendimento-da-educacao-infantil)
 
