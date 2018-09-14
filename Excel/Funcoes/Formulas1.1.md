@@ -54,7 +54,7 @@ Assim, podemos selecionar uma célula para guardar o resultado da operação ent
 3. Para multiplicar, escolha uma célula para guardar o resultado e digite, =C1*C2, por exemplo, e pressione ENTER
 4. Para dividir, escolha uma célula para guardar o resultado e digite, =C1/C2, por exemplo, e pressione ENTER
 
-![formulaBasicas](formulasBsc.gif)
+![formulaBasicas](formulasbsc.gif)
 
 ## Algumas funções úteis
 
