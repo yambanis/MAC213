@@ -44,7 +44,7 @@ Ela pode ser acessada pelo navegador, editada por múltiplos usuários e os seus
 
 * Aguarde a finalização da importação e clique em **"Abrir agora"**, caso sua planilha não aparece automaticamente.
 
-![importando](import.gif)
+![importando](../Gifs/GSheets/import.gif)
 
 ### Usando funções no Google Sheets
 
@@ -64,7 +64,7 @@ Vamos analisar quais são os bairros com organizações credenciadas e quantas e
 
 * Clique em "Mostrando todos os itens" e desselecione "DESCREDENCIADA" e clique em OK
 
-![PivotTables](Ptable.gif)
+![PivotTables](../Gifs/GSheets/Ptable.gif)
 
 * De volta na seção "Linhas", em Ordem, selecione Decrescente
 
@@ -72,7 +72,7 @@ Vamos analisar quais são os bairros com organizações credenciadas e quantas e
 
 * Feche o menu da direita, clicando no "X"
 
-![ordena](ord.gif)
+![ordena](../Gifs/GSheets/ord.gif)
 
 O que obtivemos e uma nova tabela, em que os bairros aparecem em ordem alfabética e, ao lado, temos quantas organizações credenciadas estão presentes em cada um deles.
 
@@ -90,7 +90,7 @@ Vamos criar um gráfico, mostrando quais bairros tem, pelo menos, 10 organizaç�
 
 * Assim, obtivemos um gráfico com os bairros que tem mais de 10 organizações cadastradas e os suas quantidades correspondentes
 
-![tenPlus](tenPlus.gif)
+![tenPlus](../Gifs/GSheets/tenPlus.gif)
 
 
 ### Verificando distribuição de organizações por bairros
@@ -105,7 +105,7 @@ Primeiro vamos calcular as frequências:
 
 * Na linha de número 8 vamos escrever 7 ou mais
 
-![ranges](Range.gif)
+![ranges](../Gifs/GSheets/Range.gif)
 
 Repare que o texto "7 ou mais" ficou alinhado a esquerda, vamos arrumar isso:
 
@@ -115,7 +115,7 @@ Repare que o texto "7 ou mais" ficou alinhado a esquerda, vamos arrumar isso:
 
 Pronto, agora todos os valores estão alinhados!
 
-![alinhar](alinhar.gif)
+![alinhar](../Gifs/GSheets/alinhar.gif)
 
 Agora vamos criar a coluna "Quantidade de bairros", na coluna D. Nessa coluna, vamos colocar quantos bairros tem exatamente a quantidade de organizações listadas na esquerda. Para isso, iremos usar a função **FREQUÊNCIA**.
 
@@ -139,7 +139,7 @@ Nós já temos esses dois argumentos! A matriz_dados e nossa coluna B e os inter
 
 * Não selecionamos o 7 ou mais. Automaticamente, a função frequência vai colocar os valores acima do nosso intervalo na célula seguinte.
 
-![frequencia](frequencia.gif)
+![frequencia](../Gifs/GSheets/frequencia.gif)
 
 ### Plotando um novo gráfico
 
@@ -155,4 +155,4 @@ Vamos agora criar um novo gráfico, a partir das novas informações que coletam
 
 Pronto! Agora temos um gráfico que mostra a distribuição do número de organizações cadastradas por bairro: Quantos bairros tem 1 organização cadastrada, quantos tem 2 e assim por diante.
 
-![pieC](pieC.gif)
+![pieC](../Gifs/GSheets/pieC.gif)
