@@ -13,7 +13,7 @@ A planilha ou inglês spreadsheet e uma aplicação de software que tem como fin
 
 Usaremos a versão 2016 do Excel neste tutorial mas tudo deve ser equivalente para outras versões.
 
-![Tela inicial do Excel 2016](tela_inicial.PNG)
+![Tela inicial do Excel 2016](../Gifs/intro/tela_inicial.PNG)
 
 Alguns dos elementos presentes na tela inicial do Excel são:
 
@@ -36,12 +36,12 @@ Para o nosso tutorial iremos usar o conjunto de dados [Perfil dos educandos ](ht
 Nesta página encontramos três arquivos: Dicionário, que consta uma explicação das siglas, e dois arquivos .csv - um extraído em 2017 e um 2016.
 
 
-![Baixando arquivo .csv](download.png)
+![Baixando arquivo .csv](../Gifs/intro/download.png)
 
 Clique em explorar e selecione a opção Baixar
 
 Você pode reparar que existem dois tipos de arquivo, o de extensão .CSV e o .XLSX
-![extensoes](extensao.png)
+![extensoes](../Gifs/intro/extensao.png)
 
 Os arquivos .CSV são arquivos de "valores separados por vírgulas". São dados em tabelas que foram salvos como arquivos de texto.
 
@@ -61,7 +61,7 @@ Se você já tiver o excel instalado em seu computador, ele irá avaliar automat
 
 No final, você terá uma tela parecida com esta:
 
-![importado](importado.png)
+![importado](../Gifs/intro/importado.png)
 
 
 
@@ -73,7 +73,7 @@ Se você já tem uma planilha em que está trabalhando e deseja importar esse no
 * selecione a opção "Obter dados externos"
 * escolha " de texto"
 
-![Importando CSV](importar.png)
+![Importando CSV](../Gifs/intro/importar.png)
 
 Escolha o arquivo que deseja importar, no nosso caso, idadeserieneeracadez17.csv, que fizemos o download na sessão anterior
 
@@ -82,23 +82,23 @@ Apareceram 3 telas do assistente de importação
 1. Selecione "delimitado" e "Meus dados possuem cabeçalhos". Clique "Avançar >"
 
 
-![Assistente 1](assist1.png)
+![Assistente 1](../Gifs/intro/assist1.png)
 
 2. Selecione "Ponto e vírgula". Clique "Avançar >"
 
 
-![Assistente 2](assist2.png)
+![Assistente 2](../Gifs/intro/assist2.png)
 
 3. Finalmente, apenas clique "Concluir"
-![Assistente 3](assit3.png)
+![Assistente 3](../Gifs/intro/assit3.png)
 
 4. Na tela "Importar dados" você pode selecionar coletar os dados na planilha existente ou em uma nova planilha. Neste momento, vamos selecionar a planilha existente.
 
 
-![Assistente 4](assist4.png)
+![Assistente 4](../Gifs/intro/assist4.png)
 
 Depois de finalizado este processo, sua planilha deve parecer com algo similar a isto:
 
-![importado](importado.png)
+![importado](../Gifs/intro/importado.png)
 
 

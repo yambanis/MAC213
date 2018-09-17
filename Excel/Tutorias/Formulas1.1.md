@@ -2,7 +2,7 @@
 
 Agora que já temos nossos dados importados, vamos começar a extrair informações deles.
 
-Lembre-se que na [pagina](../Funcoes/http://dados.prefeitura.sp.gov.br/dataset/perfil-dos-educandos-cor-raca-idade-sexo-necessidades-educacionais-especiais) que fizemos o download do CSV, temos o arquivo "Dicionario" que sera importante para "traduzirmos" as siglas presentes no nosso CSV.
+Lembre-se que na [pagina](http://dados.prefeitura.sp.gov.br/dataset/perfil-dos-educandos-cor-raca-idade-sexo-necessidades-educacionais-especiais) que fizemos o download do CSV, temos o arquivo "Dicionario" que sera importante para "traduzirmos" as siglas presentes no nosso CSV.
 
 Tópicos a serem abordados:
 
@@ -23,7 +23,7 @@ As funções no excel são uma das maneiras mais simples de automatizar os proce
 ## Introduzindo valores
 Para introduzir um valor no excel, basta clicar na célula em questão e digitar o valor que quisermos. Aqui, usamos o termo valor de forma genérica: Pode ser uma quantia em dinheiro, uma data, um nome. O excel é capaz de tratar todos estes tipos de dados. Vamos ver como informar o que está na célula do excel mais a frente.
 
-![Valores](../Funcoes/Valores.gif)
+![Valores](../Gifs/Funcoes/Valores.gif)
 
 
 ## Introduzindo funções
@@ -31,7 +31,7 @@ Para introduzir funções, fazemos de maneira similar aos valores: clicamos na c
 
 Uma vantagem de escrever assim, o excel imediatamente reconhece que estamos escrevendo uma fórmula e mostra uma série de opções assim que começamos a escrever o nome da função.
 
-![Funcao](../Funcoes/Funcao.gif)
+![Funcao](../Gifs/Funcoes/Funcao.gif)
 
 ## Barra de Fórmulas
 
@@ -41,7 +41,7 @@ Para isso, basta selecionar a célula que queremos editar, clicando sobre ela e,
 
 Escrever sobre a célula ou na barra de fórmula são equivalentes, tudo depende da ação que estamos realizando.
 
-![formulaBar](../Funcoes/formulaBar.gif)
+![formulaBar](../Gifs/Funcoes/formulaBar.gif)
 
 ## Fórmulas básicas
 
@@ -54,7 +54,7 @@ Assim, podemos selecionar uma célula para guardar o resultado da operação ent
 3. Para multiplicar, escolha uma célula para guardar o resultado e digite, =C1*C2, por exemplo, e pressione ENTER
 4. Para dividir, escolha uma célula para guardar o resultado e digite, =C1/C2, por exemplo, e pressione ENTER
 
-![formulaBasicas](../Funcoes/formulasBsc.gif)
+![formulaBasicas](../Gifs/Funcoes/formulasBsc.gif)
 
 ## Algumas funções úteis
 
@@ -69,7 +69,7 @@ vamos usar a função soma.
 * Vamos então clicar sobre a célula contendo o primeiro item a ser somado e, sem soltar, arrastar até o último item da lista a ser somado.
 * Finalmente vamos clicar ENTER e visualizar o valor total da soma
 
-![soma](../Funcoes/soma.gif)
+![soma](../Gifs/Funcoes/soma.gif)
 
 ### Combinando funções
 Vamos supor agora que nossos produtos têm valores distintos, vamos ver a renda total das vendas.
@@ -77,14 +77,14 @@ Primeiramente, precisamos multiplicar a coluna com os preços unitários pelas q
 
 * Selecionamos a célula B2 e multiplicamos pela célula C2
 
-![mult](../Funcoes/mult.gif)
+![mult](../Gifs/Funcoes/mult.gif)
 
 Precisamos fazer os mesmo para as células de baixo, mas não precisamos reescrever a fórmula!
 Basta clicar no canto inferior da célula com a fórmula que desejamos copiar e arrastar para as células de destino. Dessa forma, o excel aplica a mesma fórmula de maneira automática.
 
 Podemos fazer o mesmo para copiar as fórmulas de soma que escrevemos anteriormente
 
-![copiaFunc](../Funcoes/copiaFunc.gif)
+![copiaFunc](../Gifs/Funcoes/copiaFunc.gif)
 
 
 ### Funcao CONT.SE
@@ -96,7 +96,7 @@ Primeiramente, vamos criar uma nova planilha, para organizarmos nossas análises
 
 Uma nova aba vai se abrir. Podemos clicar duas vezes sobre ela para renomeá-la. Vamos chamá-la de análises.
 
-![NewSheet](../Funcoes/NewSheet.gif)
+![NewSheet](../Gifs/Funcoes/NewSheet.gif)
 
 Agora nessa nova planilha, vamos usar a funcao CONT.SE para verificar a distribuicao de alunos do sexo masculino e feminino.
 
@@ -104,7 +104,7 @@ Agora nessa nova planilha, vamos usar a funcao CONT.SE para verificar a distribu
 * Digitamos CONT.SE. Perceba que o excel começa a mostrar opções conforme você digita, não sendo necessário digitar o comando inteiro.
 * Clique duas vezes sobre o nome CONT.SE para inserir a formula na celula.
 
-![InsertForm](../Funcoes/insertForm.gif)
+![InsertForm](../Gifs/Funcoes/insertForm.gif)
 
 Conforme aparece na tela, o comando CONT.SE leva dois argumentos:
 
@@ -132,7 +132,7 @@ O ; indica que vamos agora inserir o próximo argumento. Neste caso, queremos co
 * Colocamos então um fecha parênteses - ) - no fim da fórmula e damos enter.
 
 
-![ArgsContSe](../Funcoes/argsContse.gif)
+![ArgsContSe](../Gifs/Funcoes/argsContse.gif)
 
 Agora, na nossa planilha "Análises", temos na célula escolhida um valor, 175986, que representa o número de entradas F na coluna P.
 
@@ -140,11 +140,11 @@ Assim, conseguimos obter esse valor de forma muito prática, mesmo o conjunto de
 
 Para obter o número de alunos do sexo masculino, a operação é muito similar, basta trocarmos o segundo argumento da CONT.SE de "F" para "M":
 
-![masculinos](../Funcoes/masc.gif)
+![masculinos](../Gifs/Funcoes/masc.gif)
 
 Agora temos o total de meninas e meninos. Para obter o total de estudante, basta somarmos, escrevendo em uma nova célula =A1+A2
 
-![total](../Funcoes/tot.gif)
+![total](../Gifs/Funcoes/tot.gif)
 
 Agora sabemos que o total de estudantes e 346861, sendo 175986 meninas e 170875 meninos. 
 
@@ -171,7 +171,7 @@ Entao podemos escrever a funcao como:
 
 Dessa forma, se a célula em questão for igual a F, recuperamos o valor QTD associado a. Se nao, nao contamos ela.
 
-![if](../Funcoes/IF.gif)
+![if](../Gifs/Funcoes/IF.gif)
 
 ### FUNÇÃO SOMASE
 
@@ -196,7 +196,7 @@ O argumento intervalo_soma é opcional: Se o próprio intervalo a ser somado e o
 
 * Faremos o mesmo para obter o número de meninos, apenas trocando o "F" por "M"
 
-![SomaSe](../Funcoes/somase.gif)
+![SomaSe](../Gifs/Funcoes/somase.gif)
 
 
 

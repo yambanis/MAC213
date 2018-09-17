@@ -24,7 +24,7 @@ Inserir gráficos no excel pode ser bastante simples
 
 O excel irá gerar automaticamente o gráfico referente para você
 
-![pieChart](pieChart.gif)
+![pieChart](../Gifs/Graficos/pieChart.gif)
 
 
 ## Customizando o gráfico
@@ -35,16 +35,16 @@ Primeiro vamos mudar o titulo do grafico
 
 * Clique no gráfico e em seguida clique duas vezes sobre o título do gráfico para alterá-lo
 
-![titulo](titulo.gif)
+![titulo](../Gifs/Graficos/titulo.gif)
 
 Podemos também alterar o visual geral do gráfico
 
 * clique duas vezes sobre o gráfico e escolha uma das opções apresentadas
 
-![estilo](estilo.gif)
+![estilo](../Gifs/Graficos/estilo.gif)
 
 Finalmente, podemos escolher as cores que serão utilizadas em nossos setores
 
 * Clique com o botão direito sobre um setor, selecione a opção preenchimento e escolha a opção desejada
 
-![color](color.gif)
+![color](../Gifs/Graficos/color.gif)
