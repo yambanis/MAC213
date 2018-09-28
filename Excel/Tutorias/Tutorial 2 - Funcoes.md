@@ -61,65 +61,65 @@ Assim, podemos selecionar uma célula para guardar o resultado da operação ent
 ### Função SOMA
 Esta é uma das funções mais básicas e úteis do excel.
 
-Vamos utilizar esta [base de dados](http://dados.prefeitura.sp.gov.br/dataset/demanda-por-vagas-educacao-infantil-e-eja) para calcular o numero de matriculados por escola. 
+Vamos utilizar esta [base de dados](http://dados.prefeitura.sp.gov.br/dataset/demanda-por-vagas-educacao-infantil-e-eja) para calcular o numero de matriculados por distrito. 
 
-* Primeiro, vamos adicionar um cabecalho, indicando que aquela coluna faz referencia ao total de alunos
+* Primeiro, vamos adicionar um cabeçalho, indicando que aquela coluna faz referência ao total de matrículas
 
-* Em seguida, digitamos =SOMA e selecionamos a funcao SOMA que o excel sugere, com o mouse
+* Em seguida, digitamos =SOMA e selecionamos a função SOMA que o excel sugere, com o mouse
 
-* Selecionamos as colunas B ate I referntes ao distrito de AGUA RASA
+* Selecionamos as colunas B até I referentes ao distrito de AGUA RASA
 
-* Agora, na celula J2, temos o total de matriculas em AGUA RASA
+* Agora, na célula J2, temos o total de matrículas em AGUA RASA
 
 ![Soma1](../Gifs/Funcoes/Soma1.gif)
 
-E se quisermos repetir esta mesma operacao para todos os outros 95 distritos?
+E se quisermos repetir esta mesma operação para todos os outros 95 distritos?
 
 ### Definindo um nome
-Queremos agora aplicar a mesma formula de SOMA que utilizamos para AGUA RASA para os outros distritos. Poderiamos reescreve-la em cada um, mas isso nao seria muito eficiente. 
+Queremos agora aplicar a mesma fórmula de SOMA que utilizamos para ÁGUA RASA para os outros distritos. Poderíamos reescrever em cada um, mas isso não seria muito eficiente. 
 
-Utilizaremos a definicao de nomes e a funcao preencher para facilitar essa tarefa.
+Utilizaremos a definição de nomes e a função preencher para facilitar essa tarefa.
 
-Queremos selecionar todas as linhas da coluna J, com excecao da primeira, nosso cabecalho.
+Queremos selecionar todas as linhas da coluna J, com exceção da primeira, nosso cabeçalho.
 
-* Selecionamos a celula J2
+* Selecionamos a célula J2
 
-* Em formulas, clicamos em "Definir nome"
+* Em fórmulas, clicamos em "Definir nome"
 
-* Na nova janela, digitamos o nome "Matriculas"
+* Na nova janela, digitamos o nome "Matrículas"
 
-* em "refere-se a:", incluimos ao final "::$J$97", tendo como resultado final 
+* em "refere-se a:", incluímos ao final "::$J$97", tendo como resultado final 
 
 	=evolucaodemanda!$J$2:$J$97
 
-Isso indica que estamos associando o nome "matriculas" as celulas J2 ate J97
+Isso indica que estamos associando o nome "matrículas" as células J2 até J97
 
 
 ### Preencher
-Agora, vamos aplicar a mesma formula SOMA para todos os distritos
+Agora, vamos aplicar a mesma fórmula SOMA para todos os distritos
 
-* Primeiro, vamos clicar na *CAIXA DE NOME* no canto superior esquerdo e selecionar o nome que acabamos de definir, Matriculas
+* Primeiro, vamos clicar na *CAIXA DE NOME* no canto superior esquerdo e selecionar o nome que acabamos de definir, Matrículas
 
-* Agora, selecionamos o simbolo referente ao comando preencher
+* Agora, selecionamos o símbolo referente ao comando preencher
 
 * Na caixa que se abriu, selecionamos "para baixo"
 
-Pronto! Nossa formula de soma acabou de ser aplicada para todos os distritos!
+Pronto! Nossa fórmula de soma acabou de ser aplicada para todos os distritos!
 
 ![Soma2](../Gifs/Funcoes/Soma2.gif)
 
 ### Total das Somas
-Finalmente, vamos calcular a soma total de todos os matriculados em todos os distritos. Com o nome "matriculas" que definimos anteriormente, isso fica bastante simples:
+Finalmente, vamos calcular a soma total de todos os matriculados em todos os distritos. Com o nome "matrículas" que definimos anteriormente, isso fica bastante simples:
 
-* Vamos criar um novo cabecalho chamado "Total geral"
+* Vamos criar um novo cabeçalho chamado "Total geral"
 
-* Selecionamos a celula K2 e inserimos a formula de soma
+* Selecionamos a célula K2 e inserimos a fórmula de soma
 
 	=SOMA
 
-* Como argumento, digitamos o nome que definimos "matriculas"
+* Como argumento, digitamos o nome que definimos "matrículas"
 
-* Damos enter, a celula K2 mostra a soma de todas as celulas da coluna J, com excessao do cabecalho, conforme definimos pelo nome "matriculas"
+* Damos enter, a célula K2 mostra a soma de todas as células da coluna J, com exceção do cabeçalho, conforme definimos pelo nome "matrículas"
 
 ![Soma3](../Gifs/Funcoes/Soma3.gif)
 
@@ -248,6 +248,8 @@ O argumento intervalo_soma é opcional: Se o próprio intervalo a ser somado e o
 * Faremos o mesmo para obter o número de meninos, apenas trocando o "F" por "M"
 
 ![SomaSe](../Gifs/Funcoes/somase.gif)
+
+
 
 
 
