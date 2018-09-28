@@ -90,7 +90,7 @@ Podemos fazer o mesmo para copiar as fórmulas de soma que escrevemos anteriorme
 ### Funcao CONT.SE
 Vamos agora começar algumas análises simples dos dados que importamos, utilizando algumas funções do excel
 
-A funcao CONT.SE e bastante útil e pode nos informar o número de células que atendem a algum critério. Vamos supor como exemplo que desejamos contar células contêm a letra "M" e quantas a letra "F" na coluna P. Temos um numero enorme de dados, mas essa analise fica muito simples com a funcao CONT.SE
+A funcao CONT.SE e bastante útil e pode nos informar o número de células que atendem a algum critério. Vamos supor como exemplo que desejamos contar quantos alunos são do sexo masculino e quantos são do sexo feminino. Temos um numero enorme de dados, mas essa analise fica muito simples com a funcao CONT.SE
 
 Primeiramente, vamos criar uma nova planilha, para organizarmos nossas análises. Vamos clicar no botão +, localizado na parte inferior da nossa tela.
 
@@ -98,7 +98,7 @@ Uma nova aba vai se abrir. Podemos clicar duas vezes sobre ela para renomeá-la.
 
 ![NewSheet](../Gifs/Funcoes/NewSheet.gif)
 
-Agora nessa nova planilha, vamos usar a funcao CONT.SE para verificar a ocorrencia de "F" e "M" P. 
+Agora nessa nova planilha, vamos usar a funcao CONT.SE para verificar a distribuicao de alunos do sexo masculino e feminino.
 
 * Selecionamos uma célula e digitar o símbolo de =
 * Digitamos CONT.SE. Perceba que o excel começa a mostrar opções conforme você digita, não sendo necessário digitar o comando inteiro.
@@ -111,11 +111,11 @@ Conforme aparece na tela, o comando CONT.SE leva dois argumentos:
 	=CONT.SE(intervalo; critérios)
 	=CONT.SE(Onde você quer procurar?; O que você quer procurar?)
  
-Queremos procurar quantas vezes a letra "F" está presente na coluna P da planilha "idadeserieneeracadez17". Então vamos entrar esses dois argumentos na nossa fórmula.
+Queremos procurar quantos alunos do sexo feminino estão presentes na coluna P da planilha "idadeserieneeracadez17". Então vamos entrar esses dois argumentos na nossa fórmula.
 
 Depois de inserir a CONT.SE na celula, vamos agora selecionar os argumentos.
 
-Primeiro vamos selecionar as células que nos interessam. Neste caso, as informações estão na coluna P. Queremos selecionar a coluna P em sua totalidade. 
+Primeiro vamos selecionar as células que nos interessam. Neste caso, as informações sobre o sexo dos estudantes estão na coluna P. Queremos selecionar a coluna P em sua totalidade. 
 
 * Vamos clicar na planilha "idadeserieneeracadez17" e clicar sobre o "P" que marca o nome da coluna.
 
@@ -138,15 +138,17 @@ Agora, na nossa planilha "Análises", temos na célula escolhida um valor, 17598
 
 Assim, conseguimos obter esse valor de forma muito prática, mesmo o conjunto de dados contendo mais de 300 mil entradas.
 
-Para obter o número de ocorrências da letra "M", a operação é muito similar, basta trocarmos o segundo argumento da CONT.SE de "F" para "M":
+Para obter o número de alunos do sexo masculino, a operação é muito similar, basta trocarmos o segundo argumento da CONT.SE de "F" para "M":
 
 ![masculinos](../Gifs/Funcoes/masc.gif)
 
-Agora temos o total de ocorrências de ambas as letras. Para obter o total de entradas, basta somarmos, escrevendo em uma nova célula =A1+A2
+Agora temos o total de meninas e meninos. Para obter o total de estudante, basta somarmos, escrevendo em uma nova célula =A1+A2
 
 ![total](../Gifs/Funcoes/tot.gif)
 
-Agora sabemos que o total e 346861, sendo 175986 "F" e 170875 "M". 
+Agora sabemos que o total de estudantes e 346861, sendo 175986 meninas e 170875 meninos. 
+
+Podemos utilizar o CONT.SE para extrair muitas outras informações, como total de alunos por período, ocorrência de raça
 
 ### FUNÇÃO SE
 
@@ -195,8 +197,6 @@ O argumento intervalo_soma é opcional: Se o próprio intervalo a ser somado e o
 * Faremos o mesmo para obter o número de meninos, apenas trocando o "F" por "M"
 
 ![SomaSe](../Gifs/Funcoes/somase.gif)
-
-
 
 
 
