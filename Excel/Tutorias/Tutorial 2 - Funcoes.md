@@ -61,15 +61,68 @@ Assim, podemos selecionar uma célula para guardar o resultado da operação ent
 ### Função SOMA
 Esta é uma das funções mais básicas e úteis do excel.
 
-Vamos supor que queremos calcular o total de vendas de uma empresa. Para calcular o total de produtos vendidos,
-vamos usar a função soma.
+Vamos utilizar esta [base de dados](http://dados.prefeitura.sp.gov.br/dataset/demanda-por-vagas-educacao-infantil-e-eja) para calcular o numero de matriculados por escola. 
 
-* Vamos clicar na célula que queremos guardar o valor da soma.
-* Vamos digitar =SOMA e clicar sobre a opção SOMA.
-* Vamos então clicar sobre a célula contendo o primeiro item a ser somado e, sem soltar, arrastar até o último item da lista a ser somado.
-* Finalmente vamos clicar ENTER e visualizar o valor total da soma
+* Primeiro, vamos adicionar um cabecalho, indicando que aquela coluna faz referencia ao total de alunos
 
-![soma](../Gifs/Funcoes/soma.gif)
+* Em seguida, digitamos =SOMA e selecionamos a funcao SOMA que o excel sugere, com o mouse
+
+* Selecionamos as colunas B ate I referntes ao distrito de AGUA RASA
+
+* Agora, na celula J2, temos o total de matriculas em AGUA RASA
+
+![Soma1](../Gifs/Funcoes/Soma1.gif)
+
+E se quisermos repetir esta mesma operacao para todos os outros 95 distritos?
+
+### Definindo um nome
+Queremos agora aplicar a mesma formula de SOMA que utilizamos para AGUA RASA para os outros distritos. Poderiamos reescreve-la em cada um, mas isso nao seria muito eficiente. 
+
+Utilizaremos a definicao de nomes e a funcao preencher para facilitar essa tarefa.
+
+Queremos selecionar todas as linhas da coluna J, com excecao da primeira, nosso cabecalho.
+
+* Selecionamos a celula J2
+
+* Em formulas, clicamos em "Definir nome"
+
+* Na nova janela, digitamos o nome "Matriculas"
+
+* em "refere-se a:", incluimos ao final "::$J$97", tendo como resultado final 
+
+	=evolucaodemanda!$J$2:$J$97
+
+Isso indica que estamos associando o nome "matriculas" as celulas J2 ate J97
+
+
+### Preencher
+Agora, vamos aplicar a mesma formula SOMA para todos os distritos
+
+* Primeiro, vamos clicar na *CAIXA DE NOME* no canto superior esquerdo e selecionar o nome que acabamos de definir, Matriculas
+
+* Agora, selecionamos o simbolo referente ao comando preencher
+
+* Na caixa que se abriu, selecionamos "para baixo"
+
+Pronto! Nossa formula de soma acabou de ser aplicada para todos os distritos!
+
+![Soma2](../Gifs/Funcoes/Soma2.gif)
+
+### Total das Somas
+Finalmente, vamos calcular a soma total de todos os matriculados em todos os distritos. Com o nome "matriculas" que definimos anteriormente, isso fica bastante simples:
+
+* Vamos criar um novo cabecalho chamado "Total geral"
+
+* Selecionamos a celula K2 e inserimos a formula de soma
+
+	=SOMA
+
+* Como argumento, digitamos o nome que definimos "matriculas"
+
+* Damos enter, a celula K2 mostra a soma de todas as celulas da coluna J, com excessao do cabecalho, conforme definimos pelo nome "matriculas"
+
+![Soma3](../Gifs/Funcoes/Soma3.gif)
+
 
 ### Combinando funções
 Vamos supor agora que nossos produtos têm valores distintos, vamos ver a renda total das vendas.
@@ -90,7 +143,7 @@ Podemos fazer o mesmo para copiar as fórmulas de soma que escrevemos anteriorme
 ### Funcao CONT.SE
 Vamos agora começar algumas análises simples dos dados que importamos, utilizando algumas funções do excel
 
-A funcao CONT.SE e bastante útil e pode nos informar o número de células que atendem a algum critério. Vamos supor como exemplo que desejamos contar quantos alunos são do sexo masculino e quantos são do sexo feminino. Temos um numero enorme de dados, mas essa analise fica muito simples com a funcao CONT.SE
+A funcao CONT.SE e bastante útil e pode nos informar o número de células que atendem a algum critério. Vamos supor como exemplo que desejamos contar células contêm a letra "M" e quantas a letra "F" na coluna P. Temos um numero enorme de dados, mas essa analise fica muito simples com a funcao CONT.SE
 
 Primeiramente, vamos criar uma nova planilha, para organizarmos nossas análises. Vamos clicar no botão +, localizado na parte inferior da nossa tela.
 
@@ -98,7 +151,7 @@ Uma nova aba vai se abrir. Podemos clicar duas vezes sobre ela para renomeá-la.
 
 ![NewSheet](../Gifs/Funcoes/NewSheet.gif)
 
-Agora nessa nova planilha, vamos usar a funcao CONT.SE para verificar a distribuicao de alunos do sexo masculino e feminino.
+Agora nessa nova planilha, vamos usar a funcao CONT.SE para verificar a ocorrencia de "F" e "M" P. 
 
 * Selecionamos uma célula e digitar o símbolo de =
 * Digitamos CONT.SE. Perceba que o excel começa a mostrar opções conforme você digita, não sendo necessário digitar o comando inteiro.
@@ -111,11 +164,11 @@ Conforme aparece na tela, o comando CONT.SE leva dois argumentos:
 	=CONT.SE(intervalo; critérios)
 	=CONT.SE(Onde você quer procurar?; O que você quer procurar?)
  
-Queremos procurar quantos alunos do sexo feminino estão presentes na coluna P da planilha "idadeserieneeracadez17". Então vamos entrar esses dois argumentos na nossa fórmula.
+Queremos procurar quantas vezes a letra "F" está presente na coluna P da planilha "idadeserieneeracadez17". Então vamos entrar esses dois argumentos na nossa fórmula.
 
 Depois de inserir a CONT.SE na celula, vamos agora selecionar os argumentos.
 
-Primeiro vamos selecionar as células que nos interessam. Neste caso, as informações sobre o sexo dos estudantes estão na coluna P. Queremos selecionar a coluna P em sua totalidade. 
+Primeiro vamos selecionar as células que nos interessam. Neste caso, as informações estão na coluna P. Queremos selecionar a coluna P em sua totalidade. 
 
 * Vamos clicar na planilha "idadeserieneeracadez17" e clicar sobre o "P" que marca o nome da coluna.
 
@@ -138,17 +191,15 @@ Agora, na nossa planilha "Análises", temos na célula escolhida um valor, 17598
 
 Assim, conseguimos obter esse valor de forma muito prática, mesmo o conjunto de dados contendo mais de 300 mil entradas.
 
-Para obter o número de alunos do sexo masculino, a operação é muito similar, basta trocarmos o segundo argumento da CONT.SE de "F" para "M":
+Para obter o número de ocorrências da letra "M", a operação é muito similar, basta trocarmos o segundo argumento da CONT.SE de "F" para "M":
 
 ![masculinos](../Gifs/Funcoes/masc.gif)
 
-Agora temos o total de meninas e meninos. Para obter o total de estudante, basta somarmos, escrevendo em uma nova célula =A1+A2
+Agora temos o total de ocorrências de ambas as letras. Para obter o total de entradas, basta somarmos, escrevendo em uma nova célula =A1+A2
 
 ![total](../Gifs/Funcoes/tot.gif)
 
-Agora sabemos que o total de estudantes e 346861, sendo 175986 meninas e 170875 meninos. 
-
-Podemos utilizar o CONT.SE para extrair muitas outras informações, como total de alunos por período, ocorrência de raça
+Agora sabemos que o total e 346861, sendo 175986 "F" e 170875 "M". 
 
 ### FUNÇÃO SE
 
@@ -197,6 +248,8 @@ O argumento intervalo_soma é opcional: Se o próprio intervalo a ser somado e o
 * Faremos o mesmo para obter o número de meninos, apenas trocando o "F" por "M"
 
 ![SomaSe](../Gifs/Funcoes/somase.gif)
+
+
 
 
 
