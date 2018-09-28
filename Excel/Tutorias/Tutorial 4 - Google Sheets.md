@@ -44,7 +44,7 @@ Ela pode ser acessada pelo navegador, editada por múltiplos usuários e os seus
 
 * Aguarde a finalização da importação e clique em **"Abrir agora"**, caso sua planilha não aparece automaticamente.
 
-![importando](../Gifs/GSheets/import.gif)
+![importando](../Gifs/GSheets/importa.gif)
 
 ### Usando funções no Google Sheets
 
@@ -72,7 +72,7 @@ Vamos analisar quais são os bairros com organizações credenciadas e quantas e
 
 * Feche o menu da direita, clicando no "X"
 
-![ordena](../Gifs/GSheets/ord.gif)
+![ordena](../Gifs/GSheets/ordena.gif)
 
 O que obtivemos e uma nova tabela, em que os bairros aparecem em ordem alfabética e, ao lado, temos quantas organizações credenciadas estão presentes em cada um deles.
 
@@ -90,7 +90,7 @@ Vamos criar um gráfico, mostrando quais bairros tem, pelo menos, 10 organizaç�
 
 * Assim, obtivemos um gráfico com os bairros que tem mais de 10 organizações cadastradas e os suas quantidades correspondentes
 
-![tenPlus](../Gifs/GSheets/tenPlus.gif)
+![tenPlus](../Gifs/GSheets/Graph.gif)
 
 
 ### Verificando distribuição de organizações por bairros
