@@ -124,22 +124,6 @@ Finalmente, vamos calcular a soma total de todos os matriculados em todos os dis
 ![Soma3](../Gifs/Funcoes/Soma3.gif)
 
 
-### Combinando funções
-Vamos supor agora que nossos produtos têm valores distintos, vamos ver a renda total das vendas.
-Primeiramente, precisamos multiplicar a coluna com os preços unitários pelas quantidades
-
-* Selecionamos a célula B2 e multiplicamos pela célula C2
-
-![mult](../Gifs/Funcoes/mult.gif)
-
-Precisamos fazer os mesmo para as células de baixo, mas não precisamos reescrever a fórmula!
-Basta clicar no canto inferior da célula com a fórmula que desejamos copiar e arrastar para as células de destino. Dessa forma, o excel aplica a mesma fórmula de maneira automática.
-
-Podemos fazer o mesmo para copiar as fórmulas de soma que escrevemos anteriormente
-
-![copiaFunc](../Gifs/Funcoes/copiaFunc.gif)
-
-
 ### Funcao CONT.SE
 Vamos agora começar algumas análises simples dos dados que importamos, utilizando algumas funções do excel
 
