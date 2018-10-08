@@ -70,8 +70,26 @@ Se quisermos imprimir a palavra Agua Rasa ao invés da variável, basta escrever
 
 Dessa forma, será impresso exatamente aquilo que escrevemos entre parênteses.
 
+## Operações simples 
 
+Para realizarmos operações simples em Python, basta escrevê-las de forma bastante intuitiva.
 
+Vamos Realizar a soma dos valores dos distritos de AGUA RASA, ALTO DE PINHEIROS E ANHANGUERA.
 
+Vamos, primeiro armazenar esses dados em 3 variáveis:
 
+	aRasa = 5578
+	aPinheiros = 434
+	anhanguera = 8813
 
+Agora vamos criar uma variável total que será a soma das três. Basta escrever:
+
+	total = aRasa + aPinheiros + anhanguera
+
+Finalmente, vamos imprimir esse valor na tela:
+
+	print(total)
+
+Aperte o _play_ da célula do Google Colab para visualizar o resultado.
+
+Para realizar outras operações matemáticas elementares, como subtracao, multiplicacao e divisao, basta escrever de modo natural, assim como fizemos para a soma.
