@@ -14,13 +14,9 @@ Existem muitos [materiais](https://www.python.org/about/gettingstarted/) [excele
 
 Existem várias formas de programar em Python. Voce pode [baixa-lo](https://www.python.org/downloads/) em seu computador e, usando seu editor de textos favoritos ou diretamente no terminal, roda-lo de forma local.
 
-Porem, iremos utilizar a ferramenta online [Google colab](https://colab.research.google.com/), que permite que criemos um ambiente virtual, onde iremos rodar o Python nas máquinas do Google.
+Existe tambem a ferramenta online [notebook](https://colab.research.google.com/), que permite que criemos um ambiente virtual, onde iremos rodar o Python nas máquinas do Google.
 
 Além disso, o colab permite controle de versões e que seja mais fácil compartilhar nosso código entre computadores.
-
-[Neste Link](LINK.com) ficara disponivel alguns exemplos dos códigos que utilizaremos durante este tutorial.
-
-Fique a vontade para copiá-los, mas recomendamos que você tente fazer os exemplos do zero, seguindo o passo a passo que será apresentado.
 
 ## Abrindo o Colab
 
@@ -40,7 +36,7 @@ Vamos começar declarando uma variável.
 
 Usando algumas informacoes que coletamos [neste tutorial](https://github.com/yambanis/MAC213/blob/master/Excel/Tutoriais/Tutorial%202%20-%20Funcoes.md), vamos criar uma variavel para guardar o numero de matriculados no distrito de AGUA RASA.
 
-Escreva o seguinte no Google Colab:
+Escreva o seguinte no notebook:
 
 	aguaRasa
 
@@ -54,13 +50,13 @@ Dessa forma, nossa variável aguaRasa agora guarda dentro de si o valor 5578.
 
 ## Funções
 
-Utilizando [funcoes](https://www.cs.utah.edu/~germain/PPS/Topics/functions.html) somos capazes de realizar tarefas que alguém já programou previamente, sem saber como elas funcionam!
+Utilizando [funções](https://www.cs.utah.edu/~germain/PPS/Topics/functions.html) somos capazes de realizar tarefas que alguém já programou previamente, sem saber como elas funcionam!
 
 Vamos agora imprimir(mostrar na tela) o valor que guardamos na nossa variável aguaRasa. Muitas coisas estão envolvidas neste processo, como acesso à memória, controle de entrada e saída, mas utilizando a função **print()** não é necessário que saibamos fazer nenhuma dessas coisas. Basta escrever:
 
 	print(aguaRasa)
 
-Clique no _play_ do Google Colab e o valor da variável aguaRasa irá aparecer na tela.
+Clique no _play_ do notebook e o valor da variável aguaRasa irá aparecer na tela.
 
 Geralmente as funções tem um nome e argumentos que elas recebem. Neste caso, o nome da nossa função é _print_ e o argumento, ou o que ela recebe dentro dos seus parênteses, e o que desejamos imprimir, nesse caso a variável aguaRasa.
 
@@ -90,6 +86,6 @@ Finalmente, vamos imprimir esse valor na tela:
 
 	print(total)
 
-Aperte o _play_ da célula do Google Colab para visualizar o resultado.
+Aperte o _play_ da célula do notebook para visualizar o resultado.
 
 Para realizar outras operações matemáticas elementares, como subtracao, multiplicacao e divisao, basta escrever de modo natural, assim como fizemos para a soma.
