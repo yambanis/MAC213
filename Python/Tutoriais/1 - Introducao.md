@@ -18,13 +18,13 @@ Existe tambem a ferramenta online [notebook](https://colab.research.google.com/)
 
 Além disso, o colab permite controle de versões e que seja mais fácil compartilhar nosso código entre computadores.
 
-## Abrindo o Colab
+## Anaconda
 
-Entre no [site do Google Colab](https://colab.research.google.com/), logado com sua conta do Google.
+Uma maneira pratica e poderosa de programar em Python e utilizado o pacote Anaconda. Voce pode [baixa-lo aqui](https://www.anaconda.com/download/)
 
-No canto inferior da janela, selecione _NEW PYTHON 3 NOTEBOOK_
+Siga as intrucoes de instalacao. Iremos utilizar o modulo Jupyter Notebook. Ele e automaticante instalado junto com o Anaconda.
 
-Uma nova janela se abrirá, com um documento em branco. Este é um Notebook, em que iremos escrever nosso código Python.
+Voce pode tambem acessar um versao online do jupyter notebbok [neste link](https://mybinder.org/v2/gh/yambanis/MAC213/master)
 
 ## Variáveis
 
