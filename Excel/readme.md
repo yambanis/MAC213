@@ -1,6 +1,6 @@
 # Tutoriais Excel
 
-Tutoriais acessiveis em excel para manipulacao de dados, em especial arquivos csv
+Tutoriais acessíveis em excel para manipulação de dados, em especial arquivos csv
 
 ## Tutorial 1 - Introducao.md
 
@@ -8,7 +8,7 @@ Tutoriais acessiveis em excel para manipulacao de dados, em especial arquivos cs
 
 * Importando conjunto de dados
 
-## Tutorial 2 - Funcoes
+## Tutorial 2 - Funções
 
 * Introdução a funções
 
@@ -39,3 +39,5 @@ Tutoriais acessiveis em excel para manipulacao de dados, em especial arquivos cs
 * Criando um gráfico a partir dos dados
 
 * Função FREQUÊNCIA
+
+
