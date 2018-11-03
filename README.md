@@ -13,7 +13,7 @@ O principal insumo dos Tutoriais de Dados vão ser os dados divulgados no Portal
 ### Formulas no Excel
 ### Graficos
 ### Google Sheets
-### Tabelas Dinamicas(programado)
+### Tabelas Dinamicas
 
 
 ## Tutorias de Python
