@@ -1,6 +1,6 @@
 # Tutorial Python
 
-Tutorial criando na plataforma jupyter notebook.
+Tutorial criado na plataforma jupyter notebook.
 
 Tópicos abordados:
 
