@@ -13,13 +13,16 @@ O principal insumo dos Tutoriais de Dados vão ser os dados divulgados no Portal
 ### Formulas no Excel
 ### Graficos
 ### Google Sheets
-### Libre Office(programado)
 ### Tabelas Dinamicas(programado)
-### Solver(programado)
-
 
 
 ## Tutorias de Python
+
+### Noções elementares de Python
+
+### Pacote Pandas
+
+### Criando gráficos com matplotlib
 
 
 # Supervisora
