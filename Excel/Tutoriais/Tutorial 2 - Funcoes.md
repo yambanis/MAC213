@@ -10,8 +10,6 @@ Tópicos a serem abordados:
 
 * Função SOMA
 
-* Funcao CONT.SE
-
 * Função SE
 
 * Função SOMASE
@@ -122,68 +120,6 @@ Finalmente, calcularemos a soma total de todos os matriculados em todos os distr
 * A célula K2 mostra a soma de todas as células da coluna J, com exceção do cabeçalho, conforme definimos pelo nome "matrículas".
 
 ![Soma3](../Gifs/Funcoes/Soma3.gif)
-
-
-### Função CONT.SE
-Começaremos agora  algumas análises simples dos dados que importamos, utilizando algumas funções do excel.
-
-A função CONT.SE é bastante útil e pode nos informar o número de células que atendem a algum critério. Suponhamos, como exemplo, que desejamos contar o número de células que contenham a letra "M" e quantas contenham a letra "F" na coluna P. Temos um número enorme de dados, mas essa análise fica muito simples com a função CONT.SE.
-
-Primeiramente, criaremos uma nova planilha, para organizarmos nossas análises. Clicamos no botão +, localizado na parte inferior da nossa tela.
-
-Uma nova aba vai se abrir. Podemos clicar duas vezes sobre ela para renomeá-la. Vamos chamá-la de análises.
-
-![NewSheet](../Gifs/Funcoes/NewSheet.gif)
-
-Agora, nessa nova planilha, usaremos a função CONT.SE para verificar a ocorrência de "F" e "M" em P. 
-
-* Selecionamos uma célula e digitamos o símbolo de =
-* Digitamos CONT.SE. Perceba que o excel começa a mostrar opções conforme se digita, não sendo necessário digitar o comando inteiro.
-* Clique duas vezes sobre o nome CONT.SE, para inserir a fórmula na célula.
-
-![InsertForm](../Gifs/Funcoes/insertForm.gif)
-
-Conforme aparece na tela, o comando CONT.SE recebe dois argumentos:
-
-	=CONT.SE (Intervalo; Critérios)
-	=CONT.SE (Onde você quer procurar?; O que você quer procurar?)
- 
-Queremos procurar quantas vezes a letra "F" está presente na coluna P da planilha "idadeserieneeracadez17". Então, vamos inserir esses dois argumentos na nossa fórmula.
-
-Depois de inserir a CONT.SE na célula, selecionaremos agora os argumentos.
-
-Primeiro, selecionaremos as células que nos interessam. Nesse caso, as informações estão na coluna P. Queremos selecionar a coluna P em sua totalidade. 
-
-* Vamos clicar na planilha "idadeserieneeracadez17" e clicar sobre o "P" que marca o nome da coluna.
-
-Automaticamente, a fórmula que estamos criando, escrita na barra de fórmula, já foi preenchida com o argumento "idadeserieneeracadez17!P:P", que indica que desejamos analisar a coluna P da planilha "idadeserieneeracadez17" em sua totalidade.
-
-Agora, precisamos preencher o segundo argumento da função, que, nesse caso, é o que queremos contar. 
-
-* Clicamos na barra de fórmulas e adicionamos um ponto e vírgula.
-
-O ; indica que vamos agora inserir o próximo argumento. Nesse caso, queremos contar o número de meninas.
-
-* Inserimos a letra F entre aspas, assim o excel contará todas as ocorrências da letra F na coluna P.
-
-* Colocamos então um fecha parênteses no fim da fórmula e damos enter.
-
-
-![ArgsContSe](../Gifs/Funcoes/argsContse.gif)
-
-Agora, na nossa planilha "Análises", temos na célula escolhida um valor, 175986, que representa o número de entradas F na coluna P.
-
-Assim, conseguimos obter esse valor de forma muito prática,apesar de o conjunto de dados conter mais de 300 mil entradas.
-
-Para obter o número de ocorrências da letra "M", a operação é muito similar, basta trocarmos o segundo argumento da CONT.SE de "F" para "M":
-
-![masculinos](../Gifs/Funcoes/masc.gif)
-
-Agora temos o total de ocorrências de ambas as letras. Para obtermos o total de entradas, basta somarmos, escrevendo em uma nova célula =A1+A2.
-
-![total](../Gifs/Funcoes/tot.gif)
-
-Agora sabemos que o total é 346861, sendo 175986 "F" e 170875 "M". 
 
 ### FUNÇÃO SE
 
