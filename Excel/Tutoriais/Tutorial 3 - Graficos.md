@@ -113,7 +113,7 @@ A maneira mais simples de realizar essa tarefa, e utilizando uma tabela dinâmic
 
 * Selecione "BAIRRO" na caixa de diálogo da Tabela Dinâmica
 
-![TDA](../Gifs/Funcoes/TDA.gif)
+![TDA](../Gifs/Graficos/TDA.gif)
 
 * Arraste "Bairro" para o campo "Valores"
 
@@ -121,7 +121,7 @@ A maneira mais simples de realizar essa tarefa, e utilizando uma tabela dinâmic
 
 Caso seus valores não estejam correspondendo, certifique-se que que a contagem está sendo mostrada, clicando com o botão direito na primeira opção do campo "Valores", selecionando "configurações do campo valor" e escolhendo "Contagem"
 
-![TDB](../Gifs/Funcoes/TDB.gif)
+![TDB](../Gifs/Graficos/TDB.gif)
 
 Finalmente, podemos ordenar a tabela dinâmica.
 
@@ -131,7 +131,7 @@ Inicialmente, ela está ordenada por ordem alfabética dos nomes dos Bairros, ma
 
 * Selecionar Decrescente e na caixa selecionar "Contagem de bairro"
 
-![TDC](../Gifs/Funcoes/TDC.gif)
+![TDC](../Gifs/Graficos/TDC.gif)
 
 
 ### Criando o gráfico de barras
@@ -147,7 +147,7 @@ Feito isso, selecionamos essa cópia, vamos em Inserir -> Gráfico de barras.
 Com o gráfico já criado, podemos customizar sua aparência, título, cores etc.
 
 
-![Bgraph](../Gifs/Funcoes/Bgraph.gif)
+![Bgraph](../Gifs/Graficos/Bgraph.gif)
 
 Podemos ainda fazer uma outra analise, utilizando a funcao CONT.SE
 
@@ -167,7 +167,7 @@ Copiamos a mesma fórmula para todas as células, até a 9. Na 10+, iremos digit
 
     =CONT.SE(B:B; ">=10")
     
-![Cgraph1](../Gifs/Funcoes/Cgraph1.gif)
+![Cgraph1](../Gifs/Graficos/Cgraph1.gif)
 
     
 Assim, obtivemos uma tabela com a quantidade de bairros com certo número de organizações.
