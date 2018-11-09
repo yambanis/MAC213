@@ -112,7 +112,7 @@ A maneira mais simples de realizar essa tarefa, e utilizando uma tabela dinâmic
 
 * Selecione "BAIRRO" na caixa de diálogo da Tabela Dinâmica
 
-![TDA](../Gifs/Funcoes/TDA.gif)
+![TDA](../Gifs/Graficos/TDA.gif)
 
 * Arraste "Bairro" para o campo "Valores"
 
@@ -120,7 +120,7 @@ A maneira mais simples de realizar essa tarefa, e utilizando uma tabela dinâmic
 
 Caso seus valores não estejam correspondendo, certifique-se que que a contagem está sendo mostrada, clicando com o botão direito na primeira opção do campo "Valores", selecionando "configurações do campo valor" e escolhendo "Contagem"
 
-![TDB](../Gifs/Funcoes/TDB.gif)
+![TDB](../Gifs/Graficos/TDB.gif)
 
 Finalmente, podemos ordenar a tabela dinâmica.
 
@@ -130,7 +130,7 @@ Inicialmente, ela está ordenada por ordem alfabética dos nomes dos Bairros, ma
 
 * Selecionar Decrescente e na caixa selecionar "Contagem de bairro"
 
-![TDC](../Gifs/Funcoes/TDC.gif)
+![TDC](../Gifs/Graficos/TDC.gif)
 
 
 
