@@ -100,7 +100,7 @@ O ; indica que vamos agora inserir o próximo argumento. Nesse caso, queremos co
 
 O valor que aparece, 4, mostra que existem 4 ocorrências de "BROOKLIN PAULISTA" na coluna Bairro.
 
-### TABELA DIN MICA
+### TABELA DINÂMICA
 
 Vamos supor agora que desejamos repetir a operação que realizamos com o CONT.SE, mas que queremos isso para todos os bairros.
 
