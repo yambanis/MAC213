@@ -4,13 +4,13 @@ Gráficos são ferramentas muito poderosas. Com eles, somos capazes de visualiza
 
 Tópicos a serem abordados:
 
-* Criando um gráfico de pizza 
+* Criando um gráfico de pizza simples
 
 * Customizando o gráfico
 
 * Criando um gráfico de barras
 
-## Criando um gráfico de pizza 
+## Criando um gráfico de pizza simples
 
 Utilizando os dados que coletamos no tutorial anterior -  número total de meninos e meninas -  criaremos um gráfico de setores simples.
 
@@ -100,14 +100,37 @@ O ; indica que vamos agora inserir o próximo argumento. Nesse caso, queremos co
 
 O valor que aparece, 4, mostra que existem 4 ocorrências de "BROOKLIN PAULISTA" na coluna Bairro.
 
-![CONTBP](../Gifs/Graficos/CONTBP.gif)
-
-
-### TABELA DINÂMICA
+### TABELA DIN MICA
 
 Vamos supor agora que desejamos repetir a operação que realizamos com o CONT.SE, mas que queremos isso para todos os bairros.
 
 A maneira mais simples de realizar essa tarefa, e utilizando uma tabela dinâmica.
+
+* Clique em Inserir -> Tabela Dinâmica
+
+* Mantenha as configurações padrões e selecione a coluna H da planilha osccredenciamentoabr18  em sua totalidade e clique 'OK'
+
+* Selecione "BAIRRO" na caixa de diálogo da Tabela Dinâmica
+
+![TDA](../Gifs/Funcoes/TDA.gif)
+
+* Arraste "Bairro" para o campo "Valores"
+
+* Uma nova coluna aparecerá, mostrando a contagem das ocorrências de cada bairro
+
+Caso seus valores não estejam correspondendo, certifique-se que que a contagem está sendo mostrada, clicando com o botão direito na primeira opção do campo "Valores", selecionando "configurações do campo valor" e escolhendo "Contagem"
+
+![TDB](../Gifs/Funcoes/TDB.gif)
+
+Finalmente, podemos ordenar a tabela dinâmica.
+
+Inicialmente, ela está ordenada por ordem alfabética dos nomes dos Bairros, mas podemos ordenar pela quantidade da contagem.
+
+* Vamos clicar na seta ao lado de "Rótulos de Linha" e selecionar 'Mais Opções de classificação'
+
+* Selecionar Decrescente e na caixa selecionar "Contagem de bairro"
+
+![TDC](../Gifs/Funcoes/TDC.gif)
 
 
 
