@@ -169,7 +169,7 @@ Copiamos a mesma fórmula para todas as células, até a 9. Na 10+, iremos digit
 
     =CONT.SE(B:B; ">=10")
     
-![Cgraph1](../Gifs/Graficos/Cgraph1.gif)
+![Cgraph1](../Gifs/Graficos/Cgraphh1.gif)
 
     
 Assim, obtivemos uma tabela com a quantidade de bairros com certo número de organizações.
@@ -182,9 +182,4 @@ Nesta seção, o Excel sugere alguns gráficos baseados no nosso conjunto de dad
 
 Vamos escolher um gráfico de barras agrupadas e, então, podemos personalizar o gráfico, caso necessário.
 
-![Cgraph2](../Gifs/Funcoes/Cgraph2.gif)
-
-
-
-
-
+![Cgraph2](../Gifs/Funcoes/Cgraphh2.gif)
