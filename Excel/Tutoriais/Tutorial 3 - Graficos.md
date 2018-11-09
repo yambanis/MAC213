@@ -1,3 +1,4 @@
+ 
 # GRÁFICOS
 
 Gráficos são ferramentas muito poderosas. Com eles, somos capazes de visualizar mais facilmente mesmo os mais complexos conjuntos de dados.
@@ -100,10 +101,7 @@ O ; indica que vamos agora inserir o próximo argumento. Nesse caso, queremos co
 
 O valor que aparece, 4, mostra que existem 4 ocorrências de "BROOKLIN PAULISTA" na coluna Bairro.
 
-![CONTBP](../Gifs/Graficos/CONTBP.gif)
-
-
-### TABELA DINÂMICA
+### TABELA DIN MICA
 
 Vamos supor agora que desejamos repetir a operação que realizamos com o CONT.SE, mas que queremos isso para todos os bairros.
 
@@ -115,7 +113,7 @@ A maneira mais simples de realizar essa tarefa, e utilizando uma tabela dinâmic
 
 * Selecione "BAIRRO" na caixa de diálogo da Tabela Dinâmica
 
-![TDA](../Gifs/Graficos/TDA.gif)
+![TDA](../Gifs/Funcoes/TDA.gif)
 
 * Arraste "Bairro" para o campo "Valores"
 
@@ -123,7 +121,7 @@ A maneira mais simples de realizar essa tarefa, e utilizando uma tabela dinâmic
 
 Caso seus valores não estejam correspondendo, certifique-se que que a contagem está sendo mostrada, clicando com o botão direito na primeira opção do campo "Valores", selecionando "configurações do campo valor" e escolhendo "Contagem"
 
-![TDB](../Gifs/Graficos/TDB.gif)
+![TDB](../Gifs/Funcoes/TDB.gif)
 
 Finalmente, podemos ordenar a tabela dinâmica.
 
@@ -133,7 +131,58 @@ Inicialmente, ela está ordenada por ordem alfabética dos nomes dos Bairros, ma
 
 * Selecionar Decrescente e na caixa selecionar "Contagem de bairro"
 
-![TDC](../Gifs/Graficos/TDC.gif)
+![TDC](../Gifs/Funcoes/TDC.gif)
+
+
+### Criando o gráfico de barras
+
+A partir dos dados, é bastante simples criarmos um gráfico.
+
+Vamos criar um gráfico de barras, mostrando os nomes dos bairros que tem 10 ou mais organizações.
+
+Vamos primeiro copiar os dados de interesse da tabela dinâmica para uma outra célula.
+
+Feito isso, selecionamos essa cópia, vamos em Inserir -> Gráfico de barras.
+
+Com o gráfico já criado, podemos customizar sua aparência, título, cores etc.
+
+
+![Bgraph](../Gifs/Funcoes/Bgraph.gif)
+
+Podemos ainda fazer uma outra analise, utilizando a funcao CONT.SE
+
+Vamos verificar quantos bairros tem 1 escola, quantos tem 2 e assim por diante.
+
+Podemos usar o CONT.SE para agrupar esses dados.
+
+Vamos criar uma coluna com as categorias em que queremos agrupar nossos dados. Neste caso, serão valores de 1 a 10.
+
+Na coluna do lado, iremos inserir a formula CONT.SE
+
+    =CONT.SE(B:B; D2)    
+
+Assim, será contada a célula na coluna B se o seu valor corresponder ao valor contido em D2.
+
+Copiamos a mesma fórmula para todas as células, até a 9. Na 10+, iremos digitar:
+
+    =CONT.SE(B:B; ">=10")
+    
+![Cgraph1](../Gifs/Funcoes/Cgraph1.gif)
+
+    
+Assim, obtivemos uma tabela com a quantidade de bairros com certo número de organizações.
+
+Agora, vamos criar um gráfico.
+
+Para isso, basta selecionar os dados, Inserir-> Gráficos Recomendados
+
+Nesta seção, o Excel sugere alguns gráficos baseados no nosso conjunto de dados.
+
+Vamos escolher um gráfico de barras agrupadas e, então, podemos personalizar o gráfico, caso necessário.
+
+![Cgraph2](../Gifs/Funcoes/Cgraph2.gif)
+
+
 
 
 
