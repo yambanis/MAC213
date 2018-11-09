@@ -182,4 +182,4 @@ Nesta seção, o Excel sugere alguns gráficos baseados no nosso conjunto de dad
 
 Vamos escolher um gráfico de barras agrupadas e, então, podemos personalizar o gráfico, caso necessário.
 
-![Cgraph2](../Gifs/Funcoes/CGraphh2.gif)
+![Cgraph2](../Gifs/Funcoes/CGraphh1.gif)
