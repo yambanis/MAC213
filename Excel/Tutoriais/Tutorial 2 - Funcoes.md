@@ -2,7 +2,7 @@
 
 Agora que já temos nossos dados importados, começaremos a extração de  informações.
 
-Lembre-se de que na [página](http://dados.prefeitura.sp.gov.br/dataset/perfil-dos-educandos-cor-raca-idade-sexo-necessidades-educacionais-especiais) em que fizemos o download do CSV, temos o arquivo "Dicionário", que será importante para a compreensão das siglas presentes no nosso CSV.
+Lembre-se de que na [página](http://dados.prefeitura.sp.gov.br/dataset/perfil-dos-educandos-cor-raca-idade-sexo-necessidades-educacionais-especiais) em que fizemos o download do CSV "Perfil dos educandos - Cor/raça, idade, sexo, necessidades educacionais especiais", temos o arquivo "Dicionário", que será importante para a compreensão das siglas presentes no nosso CSV.
 
 Tópicos a serem abordados:
 
