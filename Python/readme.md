@@ -9,3 +9,5 @@ Tópicos abordados:
 * Pacote Pandas
 
 * Criando gráficos com matplotlib
+
+* Regex
