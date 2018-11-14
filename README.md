@@ -24,6 +24,8 @@ O principal insumo dos Tutoriais de Dados vão ser os dados divulgados no Portal
 
 ### Criando gráficos com matplotlib
 
+### Regex
+
 
 # Supervisora
 
