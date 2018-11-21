@@ -8,7 +8,7 @@ Guilherme Yambanis Thomaz - 8041265
 
 ## Progresso
 
-##Acompanhamento
+## Acompanhamento
 
 O acompanhamento se deu de duas formas principais:
 
