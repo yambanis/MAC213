@@ -121,7 +121,7 @@ A junção do código com o texto em um só lugar, graças ao Jupyter Notebook, 
 
 Poster foi fixado no IME no dia 8 de novembro
 
-![poster](../Poster/Poster.pdf)
+![poster](IMG/Poster.png)
 
 ## Acompanhamento
 
