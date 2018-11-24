@@ -135,3 +135,6 @@ O acompanhamento se deu de duas formas principais:
 
 ![duração](IMG/Duração.png)
 
+### Horas despendidas (detalhado)
+
+![duração](IMG/detalhado.png)
