@@ -40,4 +40,4 @@ Tutoriais acessíveis em excel para manipulação de dados, em especial arquivos
 
 * Função FREQUÊNCIA
 
-
+## Tutorial 5 - Tabela Dinâmica
