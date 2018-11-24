@@ -15,7 +15,7 @@ Os dez tutoriais a serem realizados ficariam igualmente divididos entre Excel e 
 
 Os cinco tutoriais de cada plataforma foram estruturados da seguinte forma:
 
-### Tutoriais Excel
+### [Tutoriais Excel](https://github.com/yambanis/MAC213/tree/master/Excel)
 
 Tutoriais acessíveis em excel para manipulação de dados, em especial arquivos csv
 
@@ -65,7 +65,7 @@ Tutoriais acessíveis em excel para manipulação de dados, em especial arquivos
 
 * Manipulação e visualização dos dados
 
-### Tutoriais Python
+### [Tutoriais Python](https://github.com/yambanis/MAC213/tree/master/Python)
 
 Tutoriais criado na plataforma jupyter notebook.
 
