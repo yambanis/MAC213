@@ -4,7 +4,14 @@ Guilherme Yambanis Thomaz - 8041265
 
 ## Objetivos
 
+
+
 ## Tarefas
+
+Apos reuniao realizada no dia 31 de agosto com Priscilla na sede do Patio digital, ficou definido que os temas dos tutoriais seriam Excel e Python e que o controle de horas seria feito atraves da ferramenta Toggl.
+
+
+
 
 ## Progresso
 
