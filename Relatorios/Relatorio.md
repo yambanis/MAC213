@@ -21,4 +21,12 @@ O acompanhamento se deu de duas formas principais:
 
 * [Repositorio](https://github.com/yambanis/MAC213) aberto no github, onde todas os arquivos foram salvos durante o semestre
 
+![commits](IMG/Commits.png)
+
 * Controle de horas realizado atraves da ferramente Toggl
+
+![Toggl.png](IMG/Toggl.png)
+
+### Horas despendidas no projeto
+
+![duracao](IMG/Duração.png)
