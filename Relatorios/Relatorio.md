@@ -91,8 +91,6 @@ Tópicos abordados:
 
 * Definindo funções
 
-
-
 ## Progresso e desafios
 
 ### Excel
@@ -118,6 +116,12 @@ A criação dos tutoriais em python se mostrou mais desafiadora do ponto de vist
 Certas tarefas propostas por mim mesmo nos tutoriais se mostraram não tão triviais de realizar como eu havia previsto, mas isso permitiu que eu aprimorasse meus conhecimentos de python, bem como a criação dos tutoriais de um ponto de vista mais empático com o leitor, o que, acredito, melhorou a didática.
 
 A junção do código com o texto em um só lugar, graças ao Jupyter Notebook, permitiu a criação de um tutorial muito mais intuitivo, já que o código e sua explicação está lado a lado e o aluno pode roda-lo em tempo real.
+
+## Poster
+
+Poster foi fixado no IME no dia 8 de novembro
+
+![poster](../Poster/Poster.pdf)
 
 ## Acompanhamento
 
