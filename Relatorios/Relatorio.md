@@ -1,6 +1,6 @@
 # Relatório Final - MAC213
-# Projeto 4: Desenvolvimento de tutoriais de manuseio e análise de dados
-Guilherme Yambanis Thomaz - 8041265
+# Projeto : Desenvolvimento de tutoriais de manuseio e análise de dados
+# Guilherme Yambanis Thomaz - 8041265
 
 ## Objetivos
 
