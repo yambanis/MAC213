@@ -1,6 +1,6 @@
-# Tutorial Python
+# Tutoriais Python
 
-Tutorial criado na plataforma jupyter notebook.
+Tutoriais criado na plataforma jupyter notebook.
 
 Tópicos abordados:
 
@@ -11,3 +11,5 @@ Tópicos abordados:
 * Criando gráficos com matplotlib
 
 * Regex
+
+* Definindo funçes
