@@ -4,20 +4,20 @@
 
 ## Objetivos
 
-Com o intuito de fortalecer a transparência, a SME tem publicado e atualizado um conjunto de bases de dados referentes à educação municipal, variando de planilhas a Microdados. O acesso a tais bases de dados pode ser, muitas vezes, limitado devido à falta de conhecimento para manuseio das bases do público interessado (jornalistas, pesquisadores, integrantes de conselhos escolares). Frente à esse desafio, o Pátio Digital lançou o “ABC Dados”, que consiste na publicação de tutoriais que visam a orientar, numa linguagem didática e fluida, metodologias de manuseio das bases
+Com o intuito de fortalecer a transparência, a SME tem publicado e atualizado um conjunto de bases de dados referentes à educação municipal, variando de planilhas a microdados. O acesso a tais bases de dados pode ser, muitas vezes, limitado, devido à falta de conhecimento para manuseio das bases do público interessado (jornalistas, pesquisadores, integrantes de conselhos escolares). Frente a esse desafio, o Pátio Digital lançou o “ABC Dados”, que consiste na publicação de tutoriais que visam a orientar, numa linguagem didática e fluida, metodologias de manuseio das bases.
 
 
 ## Tarefas
 
-Após reunião realizada no dia 31 de agosto com Priscila na sede do Pátio digital, ficou definido que os temas dos tutoriais seriam Excel e Python e que o controle de horas seria feito através da ferramenta Toggl.
+Após reunião realizada no dia 31 de agosto com Priscilla, na sede do Pátio Digital, definiu-se que os temas dos tutoriais seriam Excel e Python, e que o controle de horas seria feito através da ferramenta Toggl.
 
-Os dez tutoriais a serem realizados ficariam igualmente divididos entre Excel e Python.
+Os dez tutoriais a serem realizados ficaram igualmente divididos entre Excel e Python.
 
 Os cinco tutoriais de cada plataforma foram estruturados da seguinte forma:
 
 ### [Tutoriais Excel](https://github.com/yambanis/MAC213/tree/master/Excel)
 
-Tutoriais acessíveis em excel para manipulação de dados, em especial arquivos csv
+Tutoriais acessíveis, sobre o Excel, para manipulação de dados, em especial arquivos csv.
 
 #### Tutorial 1
 
@@ -33,7 +33,7 @@ Tutoriais acessíveis em excel para manipulação de dados, em especial arquivos
 
 * Função SOMA
 
-* Funcao CONT.SE
+* Função CONT.SE
 
 * Função SE
 
@@ -49,7 +49,7 @@ Tutoriais acessíveis em excel para manipulação de dados, em especial arquivos
 
 * Google Sheets
 
-* Importando .csv
+* Importando csv
 
 * Usando funções no Google Sheets
 
@@ -67,7 +67,7 @@ Tutoriais acessíveis em excel para manipulação de dados, em especial arquivos
 
 ### [Tutoriais Python](https://github.com/yambanis/MAC213/tree/master/Python)
 
-Tutoriais criado na plataforma jupyter notebook.
+Tutoriais criado na plataforma Jupyter Notebook.
 
 Tópicos abordados:
 
@@ -81,7 +81,7 @@ Tópicos abordados:
 
 #### Tutorial 3 e 4
 
-* Criando gráficos com matplotlib
+* Criando gráficos com Matplotlib
 
 #### Tutorial 4
 
@@ -95,31 +95,31 @@ Tópicos abordados:
 
 ### Excel
 
-Definir inicialmente que os tutoriais seriam escritos em markdown, por ser um formato de fácil exportação, seja para plataforma web ou para pdf, além da possibilidade de inserção de links e fotos.
+Defini inicialmente que os tutoriais seriam escritos em Markdown, por ser um formato de fácil exportação, seja para plataforma web, seja para pdf, além da possibilidade de inserção de links e gifs.
 
-A construção e definição dos tutoriais tomou um certo tempo, porém, o maior desafio se mostrou na criação dos gifs, que demandam diversas tentativas de ferramentas diferentes.
+A construção e definição dos tutoriais tomou um certo tempo, porém, o maior desafio se mostrou na criação dos gifs, que demandaram diversas tentativas com ferramentas diferentes.
 
-Além disso, apos a parte técnica finalizada, escrever o texto de forma enxuta e didática também se mostrou algo desafiador. Grande parte da carga horária foi dedicada para refacção e reescrita do texto, a fim de maior clareza e melhor didática.
+Além disso, após a parte técnica finalizada, escrever o texto de forma enxuta e didática também se mostrou algo desafiador. Grande parte da carga horária foi dedicada para refacção e reescrita, a fim de maior clareza e melhor didática.
 
-Como o Excel depende da interação com a interface gráfica, foi necessário bastante texto e os gifs ajudaram muito nesse sentido, comunicando ações mais fáceis de serem traduzidas de maneira visual.
+Como o Excel depende da interação com a interface gráfica, foi necessário que o texto fosse bastante descritivo. Os gifs ajudaram muito nesse sentido, comunicando ações mais fáceis de serem traduzidas de maneira visual.
 
 ### Python
 
 Já para os tutoriais em Python, preferi o formato Notebook. 
 
-Iniciei os tutoriais usando a plataforma do Google, o Colab. Entretanto, após algum tempo, encontrei diversas dificuldades nessa, com importações incompletas entre outros.
+Iniciei os tutoriais usando a plataforma do Google, o Colab. Entretanto, após algum tempo, encontrei diversas dificuldades, como importações incompletas entre outras.
 
-Isso tornou necessário migrar o projeto para o formato Jupyter Notebook. Como ele tambem e renderizado no próprio github, não se mostrou uma perda muito grande neste aspecto, além do ganho em robustez pela execução local do código.
+Isso tornou necessário migrar o projeto para o formato Jupyter Notebook. Como ele também é renderizado no próprio Github, não se mostrou uma perda muito grande nesse aspecto, além do ganho em robustez pela execução local do código.
 
-A criação dos tutoriais em python se mostrou mais desafiadora do ponto de vista técnica, exigindo muitas refecções e pesquisa sobre a linguagem.
+A criação dos tutoriais em Python se mostrou mais desafiadora do ponto de vista técnico, exigindo muitas refacções e pesquisa sobre a linguagem.
 
-Certas tarefas propostas por mim mesmo nos tutoriais se mostraram não tão triviais de realizar como eu havia previsto, mas isso permitiu que eu aprimorasse meus conhecimentos de python, bem como a criação dos tutoriais de um ponto de vista mais empático com o leitor, o que, acredito, melhorou a didática.
+Certas tarefas que propus nos tutoriais se mostraram mais complexas do que o previsto, mas isso permitiu não só que eu aprimorasse meus conhecimentos de Python, como também que eu criasse os tutoriais de um ponto de vista mais empático com o leitor, o que, acredito, melhorou a didática.
 
-A junção do código com o texto em um só lugar, graças ao Jupyter Notebook, permitiu a criação de um tutorial muito mais intuitivo, já que o código e sua explicação está lado a lado e o aluno pode roda-lo em tempo real.
+A junção do código com o texto em um só lugar, graças ao Jupyter Notebook, permitiu a criação de um tutorial muito mais intuitivo, já que o código e sua explicação estão lado a lado e o aluno pode executá-lo em tempo real.
 
 ## Poster
 
-Poster foi fixado no IME no dia 8 de novembro
+O poster foi fixado no IME no dia 8 de novembro.
 
 ![poster](IMG/Poster.png)
 
@@ -127,7 +127,7 @@ Poster foi fixado no IME no dia 8 de novembro
 
 O acompanhamento se deu de duas formas principais:
 
-* [Repositorio](https://github.com/yambanis/MAC213) aberto no github, onde todas os arquivos foram salvos durante o semestre
+* [Repositorio](https://github.com/yambanis/MAC213) aberto no Github, onde todas os arquivos foram salvos durante o semestre
 
 ![commits](IMG/Commits.png)
 
