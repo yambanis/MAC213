@@ -14,8 +14,6 @@ Agora, em uma nova planilha, selecionamos _DADOS_ -> _Tabela Dinâmica_
 
 No campo "Quais dados?" selecionamos a planilha "censoevolutivorendimento" em sua totalidade, selecionando o quadrado cinza no canto superior esquerdo das células.
 
-![B.gif](../Gifs/Dinamica/B.gif)
-
 Vamos agora fazer uma análise da evolução das taxas de reprovação e evasão das unidades, ao longo dos anos.
 
 Para isso, vamos criar uma tabela dinâmica com 3 colunas: Ano, número de abandonados, aprovados e reprovados.
