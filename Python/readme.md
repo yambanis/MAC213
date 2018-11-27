@@ -1,6 +1,6 @@
 # Tutoriais Python
 
-Tutoriais criado na plataforma jupyter notebook.
+Tutoriais criados na plataforma jupyter notebook.
 
 Tópicos abordados:
 
@@ -12,4 +12,4 @@ Tópicos abordados:
 
 * Regex
 
-* Definindo funçes
+* Definindo funções

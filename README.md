@@ -1,5 +1,5 @@
 # MAC 213
-Disciplina MAC 0213 Atividade Curricular em Comunidade - 2o Semestre 2018
+Disciplina MAC 213 Atividade Curricular em Comunidade - 2o Semestre 2018
 
 # Projeto
 

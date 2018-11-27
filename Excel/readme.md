@@ -1,36 +1,38 @@
 # Tutoriais Excel
 
-Tutoriais acessíveis em excel para manipulação de dados, em especial arquivos csv
+Tutoriais acessíveis, sobre o Excel, para manipulação de dados, em especial arquivos csv.
 
-## Tutorial 1 - Introducao.md
+#### Tutorial 1
 
-* O que é uma planilha? Morfologia básica
+* O que é uma planilha? 
+
+* Morfologia básica
 
 * Importando conjunto de dados
 
-## Tutorial 2 - Funções
+#### Tutorial 2
 
 * Introdução a funções
 
 * Função SOMA
 
-* Funcao CONT.SE
+* Função CONT.SE
 
 * Função SE
 
 * Função SOMASE
 
-## Tutorial 3 - GRÁFICOS
+#### Tutorial 3
 
 * Criando um gráfico de pizza simples
 
 * Customizando o gráfico
 
-## Tutorial 4 - Google Sheets
+#### Tutorial 4
 
 * Google Sheets
 
-* Importando .csv
+* Importando csv
 
 * Usando funções no Google Sheets
 
@@ -40,4 +42,8 @@ Tutoriais acessíveis em excel para manipulação de dados, em especial arquivos
 
 * Função FREQUÊNCIA
 
-## Tutorial 5 - Tabela Dinâmica
+#### Tutorial 5
+
+* Criando uma tabela Dinâmica
+
+* Manipulação e visualização dos dados
