@@ -117,6 +117,19 @@ Certas tarefas que propus nos tutoriais se mostraram mais complexas do que o pre
 
 A junção do código com o texto em um só lugar, graças ao Jupyter Notebook, permitiu a criação de um tutorial muito mais intuitivo, já que o código e sua explicação estão lado a lado e o aluno pode executá-lo em tempo real.
 
+## Resultado
+
+O resultado final foram 10 tutoriais, que servem para apresentar as duas plataformas, Python e Excel, de maneira amigável.
+
+O intuito foi partir de um ponto inicial bastante básico, para que, independente do nível de conhecimento do leitor, fosse possível a utilização das ferramentas, sem uma barreira de entrada alta e intimidadora.
+
+Os tutoriais iniciais são muito explicativos, sem pressupor nenhum conhecimento prévio.
+
+Após os tutoriais iniciais de cada assunto, temas mais complexos começaram a ser abordados de forma mais pratica, o que foi possivel gracas a introdução aos _features_ anteriormente.
+
+É esperado que, uma pessoa que acompanhe todos os tutoriais, seja capaz de sair de um estado de total desconhecimento sobre as ferramentas e possa criar análises de dados pertinentes com as técnicas adquiridas ou utilize-os de ponto de partida para procurar informações mais específicas, seja pro Python ou Excel, já tem certa familiaridades com as plataformas.
+
+
 ## Poster
 
 O poster foi fixado no IME no dia 8 de novembro.
