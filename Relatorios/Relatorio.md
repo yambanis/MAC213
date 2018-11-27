@@ -134,7 +134,7 @@ Após os tutoriais iniciais de cada assunto, temas mais complexos começaram a s
 
 O poster foi fixado no IME no dia 8 de novembro.
 
-![poster](https://github.com/yambanis/MAC213/tree/master/Relatorios/IMG/Poster.png)
+![poster](https://raw.githubusercontent.com/yambanis/MAC213/master/Relatorios/IMG/Poster.png)
 
 ## Acompanhamento
 
@@ -142,16 +142,16 @@ O acompanhamento se deu de duas formas principais:
 
 * [Repositorio](https://github.com/yambanis/MAC213) aberto no Github, onde todas os arquivos foram salvos durante o semestre
 
-![commits](https://github.com/yambanis/MAC213/tree/master/Relatorios/IMG/Commits.png)
+![commits](https://raw.githubusercontent.com/yambanis/MAC213/master/Relatorios/IMG/Commits.png)
 
 * Controle de horas realizado através da ferramenta Toggl
 
-![Toggl.png](https://github.com/yambanis/MAC213/tree/master/Relatorios/IMG/Toggl.png)
+![Toggl.png](https://raw.githubusercontent.com/yambanis/MAC213/master/Relatorios/IMG/Toggl.png)
 
 ### Horas despendidas no projeto
 
-![duração](https://github.com/yambanis/MAC213/tree/master/Relatorios/IMG/Duração.png)
+![duração](https://raw.githubusercontent.com/yambanis/MAC213/master/Relatorios/IMG/Duração.png)
 
 ### Horas despendidas (detalhado)
 
-![duração](https://github.com/yambanis/MAC213/tree/master/Relatorios/IMG/detalhado.png)
+![duração](https://raw.githubusercontent.com/yambanis/MAC213/master/Relatorios/IMG/detalhado.png)
