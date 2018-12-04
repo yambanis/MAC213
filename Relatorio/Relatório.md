@@ -166,108 +166,155 @@ Irei detalhar as tarefas realizadas, utilizando as horas logadas na ferramenta T
 ## Reuniao Patio Digital	2:00:00
 > Reuniao inicial no pátio Digital, em sua sede no Pacaembu. Nela, ficou definido o assunto dos tutoriais, que seria Excel e Python. 
 
-##Pesquisas iniciais - Topicos Excel	1:32:00
+## Pesquisas iniciais - Topicos Excel	1:32:00
 > Pesquisei forma e conteúdo de cursos e tutoriais de Excel.
 
-##Pesquisando Referencias - Tutoriais	1:29:00
+## Pesquisando Referencias - Tutoriais	1:29:00
 > Continuação da pesquisa anterior, após ambas as pesquisas, consegui definir o formato dos tutoriais, com o uso de GIFs. Grande parte da decisão foi devida a tutoriais já existentes no site do Pátio Digital.
 
-##Pesquisando Topicos	1:44:19
+## Pesquisando Topicos	1:44:19
 > Elenquei Quais seriam os tópicos mais interessantes para serem abordados. Fiz um RoadMap, dos tópicos a serem abordados nos 5 tutoriais
 
-##inicio tutorial 1	1:55:35
+## inicio tutorial 1	1:55:35
 > Dei início ao tutorial 1
 
 IMAGEM TUTOD 1
 
-##Tutorial Excel	1:59:37
+## Tutorial Excel	1:59:37
 > Continuação do Tutorial 1 e início do segundo tutorial
 
-##Tutorial funcoes	0:15:58
+## Tutorial funcoes	0:15:58
 > Dei início ao segundo tutorial
 
-##Tutorial de formulas	2:16:33
+## Tutorial de formulas	2:16:33
 > Continuação do item anterior 
 
 IMAGEM TUTO 2
 
-##tutorial GSheets	0:58:46
+## tutorial GSheets	0:58:46
 > Decidi criar um tutorial sobre o Google Sheets, por ser um software livre e online
 
 IMAGEM TUTO SHEETS
 
-##revisões	1:49:26
+## revisões	1:49:26
 > A quantidade de texto dos tutoriais requereu diversas revisões, tanto gramática e ortografia, como forma e clareza. Por se tratarem de tutoriais pressupondo nível de conhecimento bastante básico, era extremamente necessária clareza nos comandos e explicações. Existiram Diversas revisões necessárias, seja por auto crítica ou por feedbacks fornecidas pela supervisora. Era imprescindível que não houvessem erros nos tutoriais para que os mesmo possam ser publicados.
 
 
-##Revisões	0:53:27
+## Revisões	0:53:27
 > Vide revisões
 
-##correcao orto	1:31:50
+## correcao orto	1:31:50
 > Vide revisões
 
-##checagem	0:29:59
+## checagem	0:29:59
 > Mudanças na função SOMA para ser relevante com a base de dados da SME, baseado em Feedback da supervisora
 
-##Refatorando	0:58:34
+## Refatorando	0:58:34
 > Organizção das pastas do Github, modularizando os tutoriais e mudança dos links dos GIFS
 
-##Refatorando	1:13:58
+## Refatorando	1:13:58
 > Vide acima
 
-##revisoes	0:57:23
+## revisoes	0:57:23
 > Vide revisões
 
-##arrumando gifs e tutorial funcoes	1:56:08
+## arrumando gifs e tutorial funcoes	1:56:08
 > Os gifs dos tutoriais do Google Sheets continham informações pessoais em alguns frames. Tiveram que ser refeitos em sua totalidade
 
-##Conformando gifs	6:00:28
+## Conformando gifs	6:00:28
 > O programa que utilizei para gravar os gifs gerou problemas de compressão. Os gifs tiveram que ser refeitos para manter maior fidelidade.
 
-##correcos ortográficas e revisoes	4:53:55
+## correcos ortográficas e revisoes	4:53:55
 > Vide revisões
 
-##Revisao CountSe Excel	2:15:55
+## Revisao CountSe Excel	2:15:55
 > Função COUNTSE estava conceitualmente confusa, atrapalhando aprendizdo.
 
-##grafico de barras excel	1:17:40
+## grafico de barras excel	1:17:40
 > Continuação e melhoria do tutorial sobre gráficos
 
-##Tutorial Tabela Dinamica	0:53:04
+## Tutorial Tabela Dinamica	0:53:04
 > Tutorial sobre Tabela Dinâmica
 
-##Continuacao tutorial Tabela Dinamica	2:10:41
+## Continuacao tutorial Tabela Dinamica	2:10:41
 > Vide acima
 
-##Correcoes Finais	2:42:00
+## Correcoes Finais	2:42:00
 > Últimas correções e checagens para entrega dos tutoriais finalizados
 
 ## planejamento Python	0:55:28
-> 
+> Elenquei quais informações seriam as mais interessantes para os tutoriais. Decidi que os tutoriais seria feitos na plataforma Google Colab e que abrangeriam conceitos basicos, Pandas e MatPlotLib
 
 ## início tutorial Python	2:24:33
+> Dei início ao tutorial de Python, que cobre conceitos básicos da linguagem de programação. Neste estágio o projeto estava sendo feito no Google Colab e em um arquivo Notebook único.
+
 ## Continuacao tutorial Pandas	2:08:04
+> Ínicio do tutorial de Pandas.
+
+IMAGEM PANDAS
+
 ## Mais Pandas	2:12:00
+> Continuando tutorial de Pandas. Encontrei diversas dificuldades nesse ponto. Em parte devido a conhecimento insuficiente sobre a biblioteca, o que requereu estudo, mas esbarrei em limitações da plataforma Google colab, o que nos levou a....
+
 ## migrando para Jupyter	3:40:24
+> Decidi abandonar o Google Colab e migrar o tutorial para o Jupyter Notebook. Isso requereu que grandes partes do tutorial fossem reescritas, bem como a copia dos trechos de codigo para a nova plataforma.
+
 ## Python Md	4:12:17
+> Iniciei um Markdown do tutorial, para ajduar na migração para o Jupyter Notebook. Estudei também a utilização de GIFs, como nos tutoriais de Excel, mas acabei abandonando ambas as ideias e deixando tudo unicamente no Jupyter.
+
 ## python	2:20:07
+> Finalmente com todo o tutorial migrado, foi possível dar continuadade às atividades com o Pandas.
+
 ## Tutorial Python - continuação	2:17:48
+> Continuação do pacote Pandas
+
 ## Palestra Patio Digital	1:29:44
+> Palestra oferecida pelo TECs com a Fernanda do Pátio Digital, que discursou sobre tópicos relevantes ao Python e as bases de dados. Forneceram novas ideias para os tutoriais.
+
 ## matplotlib	2:58:00
+> Início dos tutoriais sobre o MatplotLib, com foco em gráfico de Pizza
+
 ## Python Grafico de barras	0:38:09
+> Início do tutorial sobre gráfico de barras no MatPlotLib
+
 ## matplotlib	0:57:58
+> COntinuação do tutorial sobre gráfico de barras no MatPlotLib
+
 ## Revisoes de texto	1:30:04
+> Revisões de Texto
+
 ## Modularizando Tutoriais	0:58:00
+> Reestruturei o github como um todo
+
 ## revisao Python	0:29:19
-## matplot Bar	0:00:10
+> Revisões de texto, ortografia e gramática
+
 ## matplot Bar	3:13:50
+> Continuação do tutorial sobre gráfico no MatPlotLib
+
 ## matplot Bar	2:16:21
+> Continuação do tutorial sobre gráfico  no MatPlotLib
+
 ## Regex and Groupby	2:05:43
+> Tutorial específico sobre Regex e GroupbY
+
 ## Modularizando Tutoriais	2:33:21
+> Neste ponto, todos os tutoriais estavam em un único arquivo do Jupyter Notebook. Separei em tópicos e colapse blocos de código, reestruturando o tutorial como um todo.
+
 ## Correcoes Ortograficas	2:00:48
+> Vide Revisões
+
 ## Mais correcos	3:29:17
+> Vide Revisões
+
 ## Revisao de Texto	2:49:31
+> Vide Revisões
+
 ## Revisoes finais Python	1:20:00
+> Vide Revisões
+
 ## Exportar Python	0:21:27
+> Tutorial sobre exportar para CSV e Excel
+
 ## Novo Tutorial - funcoes	1:45:37
-Cr
+> Tutorial sobre definições de funções
