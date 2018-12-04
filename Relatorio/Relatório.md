@@ -95,7 +95,7 @@ Tópicos abordados:
 
 ### Excel
 
-Defini inicialmente que os tutoriais seriam escritos em Markdown, por ser um formato de fácil exportação, seja para plataforma web, seja para pdf, além da possibilidade de inserção de links e gifs.
+Definir inicialmente que os tutoriais seriam escritos em Markdown, por ser um formato de fácil exportação, seja para plataforma web, seja para pdf, além da possibilidade de inserção de links e gifs.
 
 A construção e definição dos tutoriais tomou um certo tempo, porém, o maior desafio se mostrou na criação dos gifs, que demandaram diversas tentativas com ferramentas diferentes.
 
@@ -131,7 +131,7 @@ O intuito foi partir de um ponto inicial bastante básico, para que, independent
 
 Os tutoriais iniciais são muito detalhados, sem pressupor nenhum conhecimento prévio.
 
-Após os tutoriais iniciais de cada assunto, temas mais complexos começam a ser abordados de forma mais prática, o que foi possível gracas à introdução aos _features_ anteriormente.
+Após os tutoriais iniciais de cada assunto, temas mais complexos começam a ser abordados de forma mais prática, o que foi possível graças à introdução aos _features_ anteriormente.
 
 É esperado que quem acompanhe todos os tutoriais seja capaz de sair de um total desconhecimento das ferramentas e possa criar análises de dados pertinentes com as técnicas adquiridas ou, ainda, possa utilizar esses tutoriais como ponto de partida para buscar informações mais específicas, já com certa familiaridade em relação às plataformas.
 
@@ -159,42 +159,49 @@ O acompanhamento se deu de duas formas principais:
 # Tarefas Realizadas (detalhado)
 
 Irei detalhar as tarefas realizadas, utilizando as horas logadas na ferramenta Toggl.
+Algumas imagens meramente ilustrativas foram adicionadas, os tutoriais integrais podem ser visualizados no repositório, já que seria inviável colocá-los em pdf, principalmente pela impossibilidade da apresentação dos GIFs em PDF.
 
-## Criacao do Github, estudos iniciais	1:56:00
+## Criação do Github, estudos iniciais	1:56:00
 > Após a troca inicial de emails com Priscilla, criei o repositório que armazenou o projeto durante todo o semestre. Priscilla me passou algumas referências de tutoriais, que estudei e iniciei algumas pesquisas sobre tópicos a serem abordados, bem como familiarizei-me com o banco de dados da SME.
 
-## Reuniao Patio Digital	2:00:00
-> Reuniao inicial no pátio Digital, em sua sede no Pacaembu. Nela, ficou definido o assunto dos tutoriais, que seria Excel e Python. 
+## Reunião Patio Digital	2:00:00
+> Reunião inicial no pátio Digital, em sua sede no Pacaembu. Nela, ficou definido o assunto dos tutoriais, que seria Excel e Python. 
 
-## Pesquisas iniciais - Topicos Excel	1:32:00
+## Pesquisas iniciais - Tópicos Excel	1:32:00
 > Pesquisei forma e conteúdo de cursos e tutoriais de Excel.
 
-## Pesquisando Referencias - Tutoriais	1:29:00
+## Pesquisando Referências - Tutoriais	1:29:00
 > Continuação da pesquisa anterior, após ambas as pesquisas, consegui definir o formato dos tutoriais, com o uso de GIFs. Grande parte da decisão foi devida a tutoriais já existentes no site do Pátio Digital.
 
-## Pesquisando Topicos	1:44:19
+## Pesquisando Tópicos	1:44:19
 > Elenquei Quais seriam os tópicos mais interessantes para serem abordados. Fiz um RoadMap, dos tópicos a serem abordados nos 5 tutoriais
 
 ## inicio tutorial 1	1:55:35
 > Dei início ao tutorial 1
 
-IMAGEM TUTOD 1
+![1](IMG/1.png)
 
 ## Tutorial Excel	1:59:37
 > Continuação do Tutorial 1 e início do segundo tutorial
 
-## Tutorial funcoes	0:15:58
+![2](IMG/2.png)
+
+
+## Tutorial funções	0:15:58
 > Dei início ao segundo tutorial
 
-## Tutorial de formulas	2:16:33
+![3](IMG/3.png)
+
+
+## Tutorial de fórmulas	2:16:33
 > Continuação do item anterior 
 
-IMAGEM TUTO 2
+![4](IMG/4.png)
 
 ## tutorial GSheets	0:58:46
 > Decidi criar um tutorial sobre o Google Sheets, por ser um software livre e online
 
-IMAGEM TUTO SHEETS
+![7](IMG/7.png)
 
 ## revisões	1:49:26
 > A quantidade de texto dos tutoriais requereu diversas revisões, tanto gramática e ortografia, como forma e clareza. Por se tratarem de tutoriais pressupondo nível de conhecimento bastante básico, era extremamente necessária clareza nos comandos e explicações. Existiram Diversas revisões necessárias, seja por auto crítica ou por feedbacks fornecidas pela supervisora. Era imprescindível que não houvessem erros nos tutoriais para que os mesmo possam ser publicados.
@@ -203,90 +210,113 @@ IMAGEM TUTO SHEETS
 ## Revisões	0:53:27
 > Vide revisões
 
-## correcao orto	1:31:50
+## correção orto	1:31:50
 > Vide revisões
 
 ## checagem	0:29:59
 > Mudanças na função SOMA para ser relevante com a base de dados da SME, baseado em Feedback da supervisora
 
 ## Refatorando	0:58:34
-> Organizção das pastas do Github, modularizando os tutoriais e mudança dos links dos GIFS
+> Organização das pastas do Github, modularizando os tutoriais e mudança dos links dos GIFS
 
 ## Refatorando	1:13:58
 > Vide acima
 
-## revisoes	0:57:23
+## revisões	0:57:23
 > Vide revisões
 
-## arrumando gifs e tutorial funcoes	1:56:08
+## arrumando gifs e tutorial funções	1:56:08
 > Os gifs dos tutoriais do Google Sheets continham informações pessoais em alguns frames. Tiveram que ser refeitos em sua totalidade
 
 ## Conformando gifs	6:00:28
 > O programa que utilizei para gravar os gifs gerou problemas de compressão. Os gifs tiveram que ser refeitos para manter maior fidelidade.
 
-## correcos ortográficas e revisoes	4:53:55
+![5](IMG/5.png)
+
+
+## correções ortográficas e revisões	4:53:55
 > Vide revisões
 
-## Revisao CountSe Excel	2:15:55
-> Função COUNTSE estava conceitualmente confusa, atrapalhando aprendizdo.
+## Revisão CountSe Excel	2:15:55
+> Função COUNTSE estava conceitualmente confusa, atrapalhando aprendizado.
 
-## grafico de barras excel	1:17:40
+![6](IMG/6.png)
+
+
+## gráfico de barras excel	1:17:40
 > Continuação e melhoria do tutorial sobre gráficos
 
-## Tutorial Tabela Dinamica	0:53:04
+![8](IMG/8.png)
+
+
+## Tutorial Tabela Dinâmica	0:53:04
 > Tutorial sobre Tabela Dinâmica
 
-## Continuacao tutorial Tabela Dinamica	2:10:41
+![9](IMG/9.png)
+
+## Continuação tutorial Tabela Dinâmica	2:10:41
 > Vide acima
 
-## Correcoes Finais	2:42:00
+## Correções Finais	2:42:00
 > Últimas correções e checagens para entrega dos tutoriais finalizados
 
 ## planejamento Python	0:55:28
-> Elenquei quais informações seriam as mais interessantes para os tutoriais. Decidi que os tutoriais seria feitos na plataforma Google Colab e que abrangeriam conceitos basicos, Pandas e MatPlotLib
+> Elenquei quais informações seriam as mais interessantes para os tutoriais. Decidi que os tutoriais seriam feitos na plataforma Google Colab e que abrange conceitos básicos, Pandas e MatPlotLib
 
 ## início tutorial Python	2:24:33
 > Dei início ao tutorial de Python, que cobre conceitos básicos da linguagem de programação. Neste estágio o projeto estava sendo feito no Google Colab e em um arquivo Notebook único.
 
-## Continuacao tutorial Pandas	2:08:04
-> Ínicio do tutorial de Pandas.
+![10](IMG/10.png)
 
-IMAGEM PANDAS
+## Continuação tutorial Pandas	2:08:04
+> Início do tutorial de Pandas.
+
+![11](IMG/11.png)
 
 ## Mais Pandas	2:12:00
 > Continuando tutorial de Pandas. Encontrei diversas dificuldades nesse ponto. Em parte devido a conhecimento insuficiente sobre a biblioteca, o que requereu estudo, mas esbarrei em limitações da plataforma Google colab, o que nos levou a....
 
+![12](IMG/12.png)
+
 ## migrando para Jupyter	3:40:24
-> Decidi abandonar o Google Colab e migrar o tutorial para o Jupyter Notebook. Isso requereu que grandes partes do tutorial fossem reescritas, bem como a copia dos trechos de codigo para a nova plataforma.
+> Decidi abandonar o Google Colab e migrar o tutorial para o Jupyter Notebook. Isso requereu que grandes partes do tutorial fossem reescritas, bem como a cópia dos trechos de código para a nova plataforma.
 
 ## Python Md	4:12:17
-> Iniciei um Markdown do tutorial, para ajduar na migração para o Jupyter Notebook. Estudei também a utilização de GIFs, como nos tutoriais de Excel, mas acabei abandonando ambas as ideias e deixando tudo unicamente no Jupyter.
+> Iniciei um Markdown do tutorial, para ajudar na migração para o Jupyter Notebook. Estudei também a utilização de GIFs, como nos tutoriais de Excel, mas acabei abandonando ambas as ideias e deixando tudo unicamente no Jupyter.
 
 ## python	2:20:07
-> Finalmente com todo o tutorial migrado, foi possível dar continuadade às atividades com o Pandas.
+> Finalmente com todo o tutorial migrado, foi possível dar continuidade às atividades com o Pandas.
 
 ## Tutorial Python - continuação	2:17:48
 > Continuação do pacote Pandas
 
-## Palestra Patio Digital	1:29:44
+## Palestra Pátio Digital	1:29:44
 > Palestra oferecida pelo TECs com a Fernanda do Pátio Digital, que discursou sobre tópicos relevantes ao Python e as bases de dados. Forneceram novas ideias para os tutoriais.
 
 ## matplotlib	2:58:00
 > Início dos tutoriais sobre o MatplotLib, com foco em gráfico de Pizza
 
-## Python Grafico de barras	0:38:09
+![13](IMG/13.png)
+
+
+## Python Gráfico de barras	0:38:09
 > Início do tutorial sobre gráfico de barras no MatPlotLib
 
-## matplotlib	0:57:58
-> COntinuação do tutorial sobre gráfico de barras no MatPlotLib
+![14](IMG/14.png)
 
-## Revisoes de texto	1:30:04
+
+## matplotlib	0:57:58
+> Continuação do tutorial sobre gráfico de barras no MatPlotLib
+
+![15](IMG/15.png)
+
+## Revisões de texto	1:30:04
 > Revisões de Texto
 
 ## Modularizando Tutoriais	0:58:00
 > Reestruturei o github como um todo
 
-## revisao Python	0:29:19
+## revisão Python	0:29:19
 > Revisões de texto, ortografia e gramática
 
 ## matplot Bar	3:13:50
@@ -298,23 +328,31 @@ IMAGEM PANDAS
 ## Regex and Groupby	2:05:43
 > Tutorial específico sobre Regex e GroupbY
 
+![16](IMG/16.png)
+
+![17](IMG/17.png)
+
 ## Modularizando Tutoriais	2:33:21
-> Neste ponto, todos os tutoriais estavam em un único arquivo do Jupyter Notebook. Separei em tópicos e colapse blocos de código, reestruturando o tutorial como um todo.
+> Neste ponto, todos os tutoriais estavam em um único arquivo do Jupyter Notebook. Separei em tópicos e colapse blocos de código, reestruturando o tutorial como um todo.
 
-## Correcoes Ortograficas	2:00:48
+## Correções Ortográficas	2:00:48
 > Vide Revisões
 
-## Mais correcos	3:29:17
+## Mais correctos	3:29:17
 > Vide Revisões
 
-## Revisao de Texto	2:49:31
+## Revisão de Texto	2:49:31
 > Vide Revisões
 
-## Revisoes finais Python	1:20:00
+## Revisões finais Python	1:20:00
 > Vide Revisões
 
 ## Exportar Python	0:21:27
 > Tutorial sobre exportar para CSV e Excel
 
-## Novo Tutorial - funcoes	1:45:37
+## Novo Tutorial - funções	1:45:37
 > Tutorial sobre definições de funções
+
+![18](IMG/18.png)
+
+
