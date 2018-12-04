@@ -165,7 +165,7 @@ Algumas imagens meramente ilustrativas foram adicionadas, os tutoriais integrais
 > Após a troca inicial de emails com Priscilla, criei o repositório que armazenou o projeto durante todo o semestre. Priscilla me passou algumas referências de tutoriais, que estudei e iniciei algumas pesquisas sobre tópicos a serem abordados, bem como familiarizei-me com o banco de dados da SME.
 
 ## Reunião Patio Digital	2:00:00
-> Reunião inicial no pátio Digital, em sua sede no Pacaembu. Nela, ficou definido o assunto dos tutoriais, que seria Excel e Python. 
+> Reunião inicial no pátio Digital, em sua sede no Pacaembu. Nela, ficou definido o assunto dos tutoriais, que seria Excel e Python. Os demais acompanhamentos e feedbacks se deram por meio eletronico, seja por e-mail ou Telegram
 
 ## Pesquisas iniciais - Tópicos Excel	1:32:00
 > Pesquisei forma e conteúdo de cursos e tutoriais de Excel.
