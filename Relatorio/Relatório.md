@@ -125,15 +125,15 @@ O poster foi fixado no IME no dia 8 de novembro.
 
 ## Resultado
 
-O resultado final foram 10 tutoriais, que servem para apresentar as duas plataformas, Python e Excel, de maneira amigável.
+O resultado final foram 10 tutoriais que servem para apresentar as duas plataformas, Python e Excel, de maneira amigável.
 
 O intuito foi partir de um ponto inicial bastante básico, para que, independente do nível de conhecimento do leitor, fosse possível a utilização das ferramentas, sem uma barreira de entrada alta e intimidadora.
 
-Os tutoriais iniciais são muito explicativos, sem pressupor nenhum conhecimento prévio.
+Os tutoriais iniciais são muito detalhados, sem pressupor nenhum conhecimento prévio.
 
-Após os tutoriais iniciais de cada assunto, temas mais complexos começaram a ser abordados de forma mais pratica, o que foi possivel gracas a introdução aos _features_ anteriormente.
+Após os tutoriais iniciais de cada assunto, temas mais complexos começam a ser abordados de forma mais prática, o que foi possível gracas à introdução aos _features_ anteriormente.
 
-É esperado que, uma pessoa que acompanhe todos os tutoriais, seja capaz de sair de um estado de total desconhecimento sobre as ferramentas e possa criar análises de dados pertinentes com as técnicas adquiridas ou utilize-os de ponto de partida para procurar informações mais específicas, seja pro Python ou Excel, já tem certa familiaridades com as plataformas.
+É esperado que quem acompanhe todos os tutoriais seja capaz de sair de um total desconhecimento das ferramentas e possa criar análises de dados pertinentes com as técnicas adquiridas ou, ainda, possa utilizar esses tutoriais como ponto de partida para buscar informações mais específicas, já com certa familiaridade em relação às plataformas.
 
 
 ## Acompanhamento
@@ -155,3 +155,119 @@ O acompanhamento se deu de duas formas principais:
 ### Horas despendidas (detalhado)
 
 ![duração](IMG/detalhado.png)
+
+# Tarefas Realizadas (detalhado)
+
+Irei detalhar as tarefas realizadas, utilizando as horas logadas na ferramenta Toggl.
+
+## Criacao do Github, estudos iniciais	1:56:00
+> Após a troca inicial de emails com Priscilla, criei o repositório que armazenou o projeto durante todo o semestre. Priscilla me passou algumas referências de tutoriais, que estudei e iniciei algumas pesquisas sobre tópicos a serem abordados, bem como familiarizei-me com o banco de dados da SME.
+
+## Reuniao Patio Digital	2:00:00
+> Reuniao inicial no pátio Digital, em sua sede no Pacaembu. Nela, ficou definido o assunto dos tutoriais, que seria Excel e Python. 
+
+##Pesquisas iniciais - Topicos Excel	1:32:00
+> Pesquisei forma e conteúdo de cursos e tutoriais de Excel.
+
+##Pesquisando Referencias - Tutoriais	1:29:00
+> Continuação da pesquisa anterior, após ambas as pesquisas, consegui definir o formato dos tutoriais, com o uso de GIFs. Grande parte da decisão foi devida a tutoriais já existentes no site do Pátio Digital.
+
+##Pesquisando Topicos	1:44:19
+> Elenquei Quais seriam os tópicos mais interessantes para serem abordados. Fiz um RoadMap, dos tópicos a serem abordados nos 5 tutoriais
+
+##inicio tutorial 1	1:55:35
+> Dei início ao tutorial 1
+
+IMAGEM TUTOD 1
+
+##Tutorial Excel	1:59:37
+> Continuação do Tutorial 1 e início do segundo tutorial
+
+##Tutorial funcoes	0:15:58
+> Dei início ao segundo tutorial
+
+##Tutorial de formulas	2:16:33
+> Continuação do item anterior 
+
+IMAGEM TUTO 2
+
+##tutorial GSheets	0:58:46
+> Decidi criar um tutorial sobre o Google Sheets, por ser um software livre e online
+
+IMAGEM TUTO SHEETS
+
+##revisões	1:49:26
+> A quantidade de texto dos tutoriais requereu diversas revisões, tanto gramática e ortografia, como forma e clareza. Por se tratarem de tutoriais pressupondo nível de conhecimento bastante básico, era extremamente necessária clareza nos comandos e explicações. Existiram Diversas revisões necessárias, seja por auto crítica ou por feedbacks fornecidas pela supervisora. Era imprescindível que não houvessem erros nos tutoriais para que os mesmo possam ser publicados.
+
+
+##Revisões	0:53:27
+> Vide revisões
+
+##correcao orto	1:31:50
+> Vide revisões
+
+##checagem	0:29:59
+> Mudanças na função SOMA para ser relevante com a base de dados da SME, baseado em Feedback da supervisora
+
+##Refatorando	0:58:34
+> Organizção das pastas do Github, modularizando os tutoriais e mudança dos links dos GIFS
+
+##Refatorando	1:13:58
+> Vide acima
+
+##revisoes	0:57:23
+> Vide revisões
+
+##arrumando gifs e tutorial funcoes	1:56:08
+> Os gifs dos tutoriais do Google Sheets continham informações pessoais em alguns frames. Tiveram que ser refeitos em sua totalidade
+
+##Conformando gifs	6:00:28
+> O programa que utilizei para gravar os gifs gerou problemas de compressão. Os gifs tiveram que ser refeitos para manter maior fidelidade.
+
+##correcos ortográficas e revisoes	4:53:55
+> Vide revisões
+
+##Revisao CountSe Excel	2:15:55
+> Função COUNTSE estava conceitualmente confusa, atrapalhando aprendizdo.
+
+##grafico de barras excel	1:17:40
+> Continuação e melhoria do tutorial sobre gráficos
+
+##Tutorial Tabela Dinamica	0:53:04
+> Tutorial sobre Tabela Dinâmica
+
+##Continuacao tutorial Tabela Dinamica	2:10:41
+> Vide acima
+
+##Correcoes Finais	2:42:00
+> Últimas correções e checagens para entrega dos tutoriais finalizados
+
+## planejamento Python	0:55:28
+> 
+
+## início tutorial Python	2:24:33
+## Continuacao tutorial Pandas	2:08:04
+## Mais Pandas	2:12:00
+## migrando para Jupyter	3:40:24
+## Python Md	4:12:17
+## python	2:20:07
+## Tutorial Python - continuação	2:17:48
+## Palestra Patio Digital	1:29:44
+## matplotlib	2:58:00
+## Python Grafico de barras	0:38:09
+## matplotlib	0:57:58
+## Revisoes de texto	1:30:04
+## Modularizando Tutoriais	0:58:00
+## revisao Python	0:29:19
+## matplot Bar	0:00:10
+## matplot Bar	3:13:50
+## matplot Bar	2:16:21
+## Regex and Groupby	2:05:43
+## Modularizando Tutoriais	2:33:21
+## Correcoes Ortograficas	2:00:48
+## Mais correcos	3:29:17
+## Revisao de Texto	2:49:31
+## Revisoes finais Python	1:20:00
+## Exportar Python	0:21:27
+## Novo Tutorial - funcoes	1:45:37
+Cr
